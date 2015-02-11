@@ -16,6 +16,10 @@ class Board {
 
   private val board = Array.ofDim[Player](Board.NUM_ROWS, Board.NUM_COLS)
 
+  /**
+     * Constructor: a duplicate of Board b.
+  */
+  
   def this(b: Board) {
     this()
     for (r <- 0 until Board.NUM_ROWS; c <- 0 until Board.NUM_COLS) {
@@ -35,6 +39,11 @@ class Board {
 
   def getTile(row: Int, col: Int): Player = board(row)(col)
 
+  /**
+     * Apply Move move to this Board by placing a piece from move's
+     * player into move's column on this Board.
+     * Throw an IllegalArgumentException if move's column is full on this Board.
+   */
   def makeMove(move: Move): Unit = {
 
     //using the column selected by the player/dummy and passed in the move object
