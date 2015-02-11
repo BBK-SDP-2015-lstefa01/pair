@@ -36,6 +36,7 @@ class GamePanel(private var window: GUI, b: Board) extends JPanel {
   /**
    * Start the animation at column col
    * and release the blocked thread that called this method.
+   *
    */
   private def startAnimation(col: Int) {
     colIndex = col
