@@ -2,6 +2,11 @@ package connect4.scala
 
 import java.util.Random
 
+/**
+ * Dummy class
+ * @param myColour
+ */
+
 class Dummy(private var myColour: Player) extends Solver {
 
   override def getMoves(b: Board): Array[Move] = {
