@@ -1,6 +1,9 @@
 package connect4.scala
 //remove if not needed
 
+/**
+ * AI implementation
+ */
 object AI {
 
   def createGameTree(s: State, d: Int) {
