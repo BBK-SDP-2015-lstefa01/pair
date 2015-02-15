@@ -81,7 +81,7 @@ connect4.java.Player   fillColumn(b, Player.RED, 0);  // fill connect4.java.Move
 
 object Game extends App {
 
-  private val SLEEP_INTERVAL = 100
+  private val SLEEP_INTERVAL = 10000
 
   val p1 = new Dummy(RED)
   val p2 = new Dummy(YELLOW)

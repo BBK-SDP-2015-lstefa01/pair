@@ -40,17 +40,30 @@ class Board {
   def getTile(row: Int, col: Int): Player = board(row)(col)
 
   /**
-     * Apply Move move to this Board by placing a piece from move's
-     * player into move's column on this Board.
-     * Throw an IllegalArgumentException if move's column is full on this Board.
+   * Apply Move move to this Board by placing a piece from move's
+   * player into move's column on this Board.
+   * Throw an IllegalArgumentException if move's column is full on this Board.
+   * @param move
+   *
    */
+  //TODO Need to ensure the IllegalArgument exception is handled properly
   def makeMove(move: Move): Unit = {
 
-    //using the column selected by the player/dummy and passed in the move object
-   // loop through all rows of this column calling getTile. Check if the next tile is nul
-    //Stop when it is not and set the current tile to be of type Player (also passed as part of the move
+    if (getTile(0, move.column) != null) throw new IllegalArgumentException()
+
+    if (getTile(Board.NUM_ROWS-1, move.column) == null)  board(Board.NUM_ROWS-1)(move.column) = move.player
+
+    else{
+      var i = 0 //counter to go through rows
+      while (getTile(i, move.column) == null && i < Board.NUM_ROWS - 1) {
+        i=i+1
+      }
+      //If the current position is full, place the Player in the next position
+      board(i - 1)(move.column) = move.player
+    }
 
   }
+
 
   def getPossibleMoves(p: Player): Array[Move] = null
 
@@ -87,7 +100,9 @@ class Board {
 
   def winLocations(): List[Array[Player]] = {
     val locations = List[Array[Player]]()
-    for (delta <- deltas; r <- 0 until Board.NUM_ROWS; c <- 0 until Board.NUM_COLS) {
+    for (delta <- deltas;
+            r <- 0 until Board.NUM_ROWS;
+                c <- 0 until Board.NUM_COLS) {
       val loc = possibleWin(r, c, delta)
       if (loc != null) {
         locations :+ loc
