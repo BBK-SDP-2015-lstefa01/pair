@@ -47,6 +47,8 @@ class Board {
    *
    */
   //TODO Need to ensure the IllegalArgument exception is handled properly
+  //TODO Need to ensure that Connect4 assigns a winner when 4 coloured Players are adjacent. Currently not detected (15.02.015)
+  
   def makeMove(move: Move): Unit = {
 
     if (getTile(0, move.column) != null) throw new IllegalArgumentException()
