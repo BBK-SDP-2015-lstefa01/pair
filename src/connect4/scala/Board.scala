@@ -78,9 +78,15 @@ class Board {
    */
   def getPossibleMoves(p: Player): Array[Move] = null
 
-  //needs to return an array of moves - a move is essentially a column and a player
-  // Something like look through the whole board and find all positions which are null and not yellow for red and vice versa
-  //where is this used though? do we need to find out possible moves in certain direction?
+  /* Needs to return an array of moves - a move is essentially a column and a player
+   * Something like look through the whole board and find all possible positions
+   * Possible implementation: 
+   * 1. Create ArrayList of length (num_cols)
+   * 2. Check board.getTile(0,everyColumn), And if that tile != null, then it is full, so remove this element from the ArrayList
+   * 3. Each element of the ArrayList is a Move object with player = player, and column (1-7)
+   * 4. ArrayList to Array as final step to return [Move]. 
+   * Where is this used though? do we need to find out possible moves in certain direction?
+   */
 
   override def toString(): String = toString("")
 
