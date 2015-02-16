@@ -1,5 +1,7 @@
 package connect4.scala
 
+import scala.collection.mutable.ListBuffer
+
 object Board {
   val NUM_ROWS = 6
   val NUM_COLS = 7
@@ -16,10 +18,6 @@ class Board {
 
   private val board = Array.ofDim[Player](Board.NUM_ROWS, Board.NUM_COLS)
 
-  /**
-     * Constructor: a duplicate of Board b.
-  */
-  
   def this(b: Board) {
     this()
     for (r <- 0 until Board.NUM_ROWS; c <- 0 until Board.NUM_COLS) {
@@ -38,8 +36,8 @@ class Board {
   }
 
   def getTile(row: Int, col: Int): Player = board(row)(col)
-
-  /**
+  
+    /**
    * Apply Move move to this Board by placing a piece from move's
    * player into move's column on this Board.
    * Throw an IllegalArgumentException if move's column is full on this Board.
@@ -48,9 +46,9 @@ class Board {
    */
   //TODO Need to ensure the IllegalArgument exception is handled properly
   //TODO Need to ensure that Connect4 assigns a winner when 4 coloured Players are adjacent. Currently not detected (15.02.015)
-  
-  def makeMove(move: Move): Unit = {
 
+  def makeMove(move: Move): Unit = {
+   
     if (getTile(0, move.column) != null) throw new IllegalArgumentException()
 
     if (getTile(Board.NUM_ROWS-1, move.column) == null)  board(Board.NUM_ROWS-1)(move.column) = move.player
@@ -66,8 +64,7 @@ class Board {
 
   }
 
-
-  /**
+    /**
    * Return an array of all moves that can possibly be made by Player p on
    * this board. The moves must be in order of increasing column number. Note:
    * The length of the array must be the number of possible moves. Note: If
@@ -76,8 +73,8 @@ class Board {
    * number of possible moves is the number of columns that are not full.
    * Thus, if all columns are full, return an array of length 0.
    */
-  def getPossibleMoves(p: Player): Array[Move] = null
-
+  def getPossibleMoves(p: Player): Array[Move] = ???
+   
   /* Needs to return an array of moves - a move is essentially a column and a player
    * Something like look through the whole board and find all possible positions
    * Possible implementation: 
@@ -87,7 +84,6 @@ class Board {
    * 4. ArrayList to Array as final step to return [Move]. 
    * Where is this used though? do we need to find out possible moves in certain direction?
    */
-
   override def toString(): String = toString("")
 
   def toString(prefix: String): String = {
@@ -112,20 +108,18 @@ class Board {
     winLocations().find(loc => loc(0) != null && loc(0) == loc(1) && loc(0) == loc(2) &&
       loc(0) == loc(3))
       .map(_(0))
-      .getOrElse(null)
+      .orNull
   }
 
   def winLocations(): List[Array[Player]] = {
-    val locations = List[Array[Player]]()
-    for (delta <- deltas;
-            r <- 0 until Board.NUM_ROWS;
-                c <- 0 until Board.NUM_COLS) {
+    val locations = ListBuffer[Array[Player]]()
+    for (delta <- deltas; r <- 0 until Board.NUM_ROWS; c <- 0 until Board.NUM_COLS) {
       val loc = possibleWin(r, c, delta)
       if (loc != null) {
-        locations :+ loc
+        locations += loc
       }
     }
-    locations
+    locations.toList
   }
 
   def possibleWin(r: Int, c: Int, delta: Array[Int]): Array[Player] = {
