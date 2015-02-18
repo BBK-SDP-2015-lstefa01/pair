@@ -73,7 +73,17 @@ class Board {
    * number of possible moves is the number of columns that are not full.
    * Thus, if all columns are full, return an array of length 0.
    */
-  def getPossibleMoves(p: Player): Array[Move] = ???
+  def getPossibleMoves(p: Player): Array[Move] = {
+    val possMoveList = List[Move]()
+    
+    for (i<-0 until Board.NUM_COLS){
+    if (getTile(0, i) != null) {
+      val possibleMove = new Move(p, i)
+      possMoveList :+ possibleMove
+    }
+    } 
+    possMoveList.toArray
+  } 
    
   /* Needs to return an array of moves - a move is essentially a column and a player
    * Something like look through the whole board and find all possible positions
