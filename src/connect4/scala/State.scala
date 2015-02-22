@@ -48,6 +48,12 @@ class State(@BeanProperty var player: Player, @BeanProperty var board: Board, @B
      */
   }
 
+  /**
+   * Write this State to a file called "output.txt", including its
+   * children, their children, etc.. connect4.java.Statemethod allows the State to
+   * be viewed in a file even when it is too large to print to console.
+   * Beep when printing is done.
+   */
   def writeToFile() {
     try {
       var writer = new PrintWriter("output.txt", "UTF-8")
@@ -63,6 +69,12 @@ class State(@BeanProperty var player: Player, @BeanProperty var board: Board, @B
     toStringHelper(0, "")
   }
 
+  /**
+   * Return a string that contains a representation of this board indented
+   * with string ind (expected to be a string of blank characters) followed
+   * by a similar representation of all its children,
+   * indented an additional ind characters. d is the depth of this state.
+   */
   private def toStringHelper(d: Int, ind: String): String = {
     var str = ind + player + " to play\n"
     str = str + ind + "Value: " + value + "\n"
@@ -76,7 +88,7 @@ class State(@BeanProperty var player: Player, @BeanProperty var board: Board, @B
     }
     str
   }
-
+  //Need to add Comparable as an interface State implements if we decide to use this
   override def compareTo(ob: AnyRef): Int = 0
 }
 
