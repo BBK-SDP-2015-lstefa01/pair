@@ -20,7 +20,7 @@ object AI {
     //the first action is initializing the children of state and then recursively initializing their children
     //until depth is met
     
-    if(d == -2){
+    if(d == -3){
       s.initializeChildren()
       println("finished")
     }

@@ -53,7 +53,7 @@ object TesterClass extends App{
   val p2 = new Human(YELLOW)
   
   val tempState = new State(YELLOW, b, move)
-  AI.createGameTree(tempState, 0) //depth of the tree includes the root, i.e.,  
+  AI.createGameTree(tempState, 0) //depth of the tree includes the root?
   tempState.writeToFile()
   
   val game= new Game(p1, p2, b, true)
