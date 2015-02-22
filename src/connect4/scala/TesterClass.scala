@@ -7,7 +7,15 @@ object TesterClass extends App{
   var move = new Move(RED, 4)
   b.makeMove(move)
  // println(b)
+ 
+  b.makeMove(new Move(RED, 4))
+  b.makeMove(new Move(RED, 4))
+  b.makeMove(new Move(RED, 4))
+  b.makeMove(new Move(RED, 4))
+  b.makeMove(new Move(RED, 4))
   val state = new State(b.getPlayer(5, 4), b,move)
+
+  
   state.initializeChildren()
   println("Length of children:" + state.children.length)
   println("Level 0-Child elements: ")
@@ -24,13 +32,14 @@ object TesterClass extends App{
       println("Child board"+"\n"+child2.board)
       println("Child last move: "+child2.lastMove)
   }
+
  // println(b)
   
-  b.makeMove(new Move(RED, 4))
-  b.makeMove(new Move(RED, 4))
-  b.makeMove(new Move(RED, 4))
-  b.makeMove(new Move(YELLOW, 3))
-  b.makeMove(new Move(RED, 5))
+//  b.makeMove(new Move(RED, 4))
+//  b.makeMove(new Move(RED, 4))
+//  b.makeMove(new Move(RED, 4))
+//  b.makeMove(new Move(YELLOW, 3))
+//  b.makeMove(new Move(RED, 5))
  // println(b.toString())
  // println("hasConnectFour: "+b.hasConnectFour()) //returns colour of player
  // println("Length of poss moves: "+b.getPossibleMoves(YELLOW).length)
@@ -42,6 +51,11 @@ object TesterClass extends App{
   */
   val p1 = new Human(RED)
   val p2 = new Human(YELLOW)
+  
+  val tempState = new State(YELLOW, b, move)
+  AI.createGameTree(tempState, 0) //depth of the tree includes the root, i.e.,  
+  tempState.writeToFile()
+  
   val game= new Game(p1, p2, b, true)
   //we realised that the game constructor with the 4th parameter set to 'false' does not work just yet
 //  game.setGUI(new GUI(game, Board.NUM_COLS, Board.NUM_ROWS));
