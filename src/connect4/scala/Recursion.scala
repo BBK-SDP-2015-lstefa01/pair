@@ -7,9 +7,12 @@ package connect4.scala
 
 
 object Recursion {
-  /* You have to implement two recursion problems.
-connect4.java.RecursionatchTarget in Recursionconnect4.java.TreeNode * 2. isBST in TreeNode.java
-  */
+  
+/* You have to implement two recursion problems.
+   * 1. matchTarget in Recursion.java
+   * 2. isBST in TreeNode.java
+   */
+  
   /**
    * Return true if is it possible to choose a group of ints in nums
    * that sums to t. You may create a helper method if you see fit.
@@ -28,10 +31,13 @@ connect4.java.RecursionatchTarget in Recursionconnect4.java.TreeNode * 2. isBST 
   //TODO: Fill in the method matchTarget
   
   /*
+   * This method possibly checks the path down the tree to take to achieve the 'target' value-- 
+   * i.e. once a path is identified by the AI as desirable, this method may 'trace' the summing of 'value'
+   * to achieve that path.
   Potential implementation notes:
   1. Helper method to do the following:
      1. Take first element in array and check if it's equal to t -> if yes, return true
      2. If not, then check if the sum of second and third equal t -> if yes, true
-     3. If not, check sum of first, second, thir
+     3. If not, check sum of first, second, third
    */
 }

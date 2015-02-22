@@ -24,6 +24,9 @@ class State(@BeanProperty var player: Player, @BeanProperty var board: Board, @B
   @BeanProperty
   var children: Array[State] = length0
 
+  /**
+   * How desirable this State is.
+   */
   @BeanProperty
   var value: Int = 0
 
@@ -44,21 +47,13 @@ class State(@BeanProperty var player: Player, @BeanProperty var board: Board, @B
       children = children.:+(newState)
     }
    // println("Children length:"+children.length)
+   /* 
+    * TODO this method needs to do something with lastMove --  needs
+    * check! does this.board represent the last move reflect the move just made??
+    * is it a new board each level of tree? Or, is the last move used to from 
+    * leaves to parents in the algo? Parents dont care about last moves, leaves do
+    */
   }
-  
-
-  /*
-   * Possible implementation
-   * 1. check the current player and switch it to the opponent
-   * 2. get possible moves for that player
-   * 3. for each Move, create a new state (passed parameter player, this board, lm) 
-   * //check! does this.board represent the last move reflect the move just made??
-   * 4. add the State to the children Array[State]
-   * ...not recursive!
-   * # of states = number of columns that are not full
-   * is it a new board each level of tree? Or, is the last move used to from leaves to parents in the algo? 
-   * parents dont care about last moves, leaves do
-   */
 
   /**
    * Write this State to a file called "output.txt", including its
