@@ -36,8 +36,8 @@ class Board {
   }
 
   def getTile(row: Int, col: Int): Player = board(row)(col)
-  
-    /**
+
+  /**
    * Apply Move move to this Board by placing a piece from move's
    * player into move's column on this Board.
    * Throw an IllegalArgumentException if move's column is full on this Board.
@@ -45,18 +45,17 @@ class Board {
    *
    */
   //TODO Need to ensure the IllegalArgument exception is handled properly
-  //TODO Need to ensure that Connect4 assigns a winner when 4 coloured Players are adjacent. Currently not detected (15.02.015)
 
   def makeMove(move: Move): Unit = {
-   
+
     if (getTile(0, move.column) != null) throw new IllegalArgumentException()
 
-    if (getTile(Board.NUM_ROWS-1, move.column) == null)  board(Board.NUM_ROWS-1)(move.column) = move.player
+    if (getTile(Board.NUM_ROWS - 1, move.column) == null) board(Board.NUM_ROWS - 1)(move.column) = move.player
 
-    else{
+    else {
       var i = 0 //counter to go through rows
       while (getTile(i, move.column) == null && i < Board.NUM_ROWS - 1) {
-        i=i+1
+        i = i + 1
       }
       //If the current position is full, place the Player in the next position
       board(i - 1)(move.column) = move.player
@@ -64,7 +63,7 @@ class Board {
 
   }
 
-    /**
+  /**
    * Return an array of all moves that can possibly be made by Player p on
    * this board. The moves must be in order of increasing column number. Note:
    * The length of the array must be the number of possible moves. Note: If
@@ -74,26 +73,19 @@ class Board {
    * Thus, if all columns are full, return an array of length 0.
    */
   def getPossibleMoves(p: Player): Array[Move] = {
-    val possMoveList = List[Move]()
-    
-    for (i<-0 until Board.NUM_COLS){
-    if (getTile(0, i) != null) {
-      val possibleMove = new Move(p, i)
-      possMoveList :+ possibleMove
+    var possMoveArr = Array[Move]()
+
+    for (i <- 0 until Board.NUM_COLS) {
+      if (getTile(0, i) != null) {
+        println("This column is full")
+      }
+      else {
+        possMoveArr = possMoveArr.:+(new Move(p, i))
+      }
     }
-    } 
-    possMoveList.toArray
-  } 
-   
-  /* Needs to return an array of moves - a move is essentially a column and a player
-   * Something like look through the whole board and find all possible positions
-   * Possible implementation: 
-   * 1. Create ArrayList of length (num_cols)
-   * 2. Check board.getTile(0,everyColumn), And if that tile != null, then it is full, so remove this element from the ArrayList
-   * 3. Each element of the ArrayList is a Move object with player = player, and column (1-7)
-   * 4. ArrayList to Array as final step to return [Move]. 
-   * Where is this used though? do we need to find out possible moves in certain direction?
-   */
+    possMoveArr
+  }
+
   override def toString(): String = toString("")
 
   def toString(prefix: String): String = {
