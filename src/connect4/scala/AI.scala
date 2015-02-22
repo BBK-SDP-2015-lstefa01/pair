@@ -20,23 +20,19 @@ object AI {
     //the first action is initializing the children of state and then recursively initializing their children
     //until depth is met
     
-    if(d == -3){
+    if(d == 0){
       s.initializeChildren()
+      println("This state's children's length is: "+s.children.length)
       println("finished")
     }
     else {
       s.initializeChildren()
       for(child <- s.children){
+        println("This state's children's length is: "+s.children.length)
         createGameTree(child, d-1)//  depth of the tree minus 1
       }
     }
-
-//    for(child <- currState.children){ //works through the array of children, and inititalises their children
-//      child.initializeChildren()
-//    }
-//
-//      
-
+    
     /*
      * Planning:
      * 1. Tree of States (state has a value of how desirable it is).

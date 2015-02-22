@@ -43,7 +43,7 @@ class State(@BeanProperty var player: Player, @BeanProperty var board: Board, @B
     var possMoves = board.getPossibleMoves(newPlayer)
     println("Possible moves length: "+possMoves.length)
     for (move <- possMoves) {
-      val newState = new State(newPlayer, new Board(board, move), lastMove)
+      val newState = new State(newPlayer, new Board(board, move), move)
       children = children.:+(newState)
     }
    // println("Children length:"+children.length)
