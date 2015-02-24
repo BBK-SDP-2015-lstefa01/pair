@@ -8,11 +8,11 @@ object TesterClass extends App{
   b.makeMove(move)
  // println(b)
  
-  b.makeMove(new Move(RED, 4))
-  b.makeMove(new Move(RED, 4))
-  b.makeMove(new Move(RED, 4))
-  b.makeMove(new Move(RED, 4))
-  b.makeMove(new Move(RED, 4))
+  b.makeMove(new Move(YELLOW, 4))
+  b.makeMove(new Move(RED, 5))
+  b.makeMove(new Move(YELLOW, 6))
+  b.makeMove(new Move(RED, 6))
+  b.makeMove(new Move(YELLOW, 5))
   val state = new State(b.getPlayer(5, 4), b,move)
 
   
@@ -52,9 +52,12 @@ object TesterClass extends App{
   val p1 = new Human(RED)
   val p2 = new Human(YELLOW)
   
-  val tempState = new State(YELLOW, b, move) //is this parameter move correct??
-  AI.createGameTree(tempState, 2) //depth of the tree includes the root?
-  tempState.writeToFile()
+  println("final board looks like...")
+  println(b.toString());
+  
+  val tempState = new State(YELLOW, b, move) //is this parameter move correct?? can it be a val?
+  AI.createGameTree(tempState, 1) //depth of the tree includes the root? 
+  tempState.writeToFile() //Could also put this line of code inside the recursive method.
   
   val game= new Game(p1, p2, b, true)
   //we realised that the game constructor with the 4th parameter set to 'false' does not work just yet
