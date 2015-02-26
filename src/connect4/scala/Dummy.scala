@@ -2,7 +2,6 @@ package connect4.scala
 
 import java.util.Random
 
-/
 object Dummy{
   def apply(myColour:Player):Dummy = new Dummy(myColour)
 }
