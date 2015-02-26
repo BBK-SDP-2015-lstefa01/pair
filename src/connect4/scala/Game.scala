@@ -93,11 +93,11 @@ object Game extends App {
 
 class Game(private var activePlayer: Solver, private var player2: Solver) {
 
-  private var board: Board = new Board()
+  private var board: Board = Board()
 
   private var gui: GUI = _
 
-  private var winner: Player = _
+  private var winner: Option[Player] = _
 
   /** ************** Do not change anything below here ***************/
   /**
@@ -172,13 +172,10 @@ class Game(private var activePlayer: Solver, private var player2: Solver) {
       }
     }
     if (gui == null) {
-      if (winner == null) {
-        println("Tie game!")
-      } else {
-        println(winner + " won the game!!!")
-      }
+        if(winner.isDefined)  println(winner + " won the game!!!")
+        else println("Tie game!")
     } else {
-      gui.notifyGameOver(winner)
+      gui.notifyGameOver(winner.get)
     }
   }
 
@@ -190,7 +187,7 @@ class Game(private var activePlayer: Solver, private var player2: Solver) {
 
   def isGameOver(): Boolean = {
     winner = board.hasConnectFour()
-    if (winner != null) return true
+    if (winner.isDefined) return true
     var r = 0
     while (r < Board.NUM_ROWS) {
       var c = 0

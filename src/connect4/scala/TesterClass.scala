@@ -16,22 +16,22 @@ object TesterClass extends App{
   val state = new State(b.getPlayer(5, 4), b,move)
 
   
-  state.initializeChildren()
-  println("Length of children:" + state.children.length)
-  println("Level 0-Child elements: ")
-  for(child<-state.children) {
-    
-    println("Child player:" + child.player)
-    println("Child board" + "\n" + child.board)
-    println("Child last move: " + child.lastMove)
-  }
-    state.children(0).initializeChildren()
-    println("Level 1-Child elements: ")
-    for(child2<-state.children(0).children){
-      println("Child player:"+child2.player)
-      println("Child board"+"\n"+child2.board)
-      println("Child last move: "+child2.lastMove)
-  }
+//  state.initializeChildren()
+//  println("Length of children:" + state.children.length)
+//  println("Level 0-Child elements: ")
+//  for(child<-state.children) {
+//
+//    println("Child player:" + child.player)
+//    println("Child board" + "\n" + child.board)
+//    println("Child last move: " + child.lastMove)
+//  }
+//    state.children(0).initializeChildren()
+//    println("Level 1-Child elements: ")
+//    for(child2<-state.children(0).children){
+//      println("Child player:"+child2.player)
+//      println("Child board"+"\n"+child2.board)
+//      println("Child last move: "+child2.lastMove)
+//  }
 
  // println(b)
   
@@ -52,11 +52,18 @@ object TesterClass extends App{
   val p1 = new Human(RED)
   val p2 = new Human(YELLOW)
   
-  println("final board looks like...")
-  println(b.toString());
+//  println("final board looks like...")
+//  println(b.toString());
   
-  val tempState = new State(YELLOW, b, move) //is this parameter move correct?? can it be a val?
-  AI.createGameTree(tempState, 1) //depth of the tree includes the root? 
+  var tempState = new State(YELLOW, b, move) //is this parameter move correct?? can it be a val?
+  AI.createGameTree(tempState, 1) //depth of the tree includes the root?
+  
+  var tempChildren = tempState.children
+  println("Parent of Temp State!")
+  println(tempState)
+//  println("Children of temp state: ")
+//  for(c<-tempChildren){println(c)}
+//
   tempState.writeToFile() //Could also put this line of code inside the recursive method.
   
   val game= new Game(p1, p2, b, true)
