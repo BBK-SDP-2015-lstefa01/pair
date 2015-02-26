@@ -20,17 +20,25 @@ object AI {
     //the first action is initializing the children of state and then recursively initializing their children
     //until depth is met
     
+    if(d < 0){ throw new IllegalArgumentException("You can't have a depth of < 0 levels if you want to create a game tree!")}
+    /*
+     * with a depth of '0' nothing will be written to the file, as all that is called is the initialise children method. Nothing 
+     */
     if(d == 0){
+      //s.board.getPossibleMoves(s.getPlayer().opponent) do we just have to get the possible moves instead of 
+      //initialising children?
+      println("InitialiseChildren being called on level d==0.")
       s.initializeChildren()
       println("This state's children's length is: "+s.children.length)
       println("finished")
     }
     else {
       s.initializeChildren()
+      println("InitialiseChildren being called on level d>0.")
       for(child <- s.children){
-        println("This state's children's length is: "+s.children.length)
+        println("This state's children's length is: "+ s.children.length)
         createGameTree(child, d-1)//  depth of the tree minus 1
-      }
+      } //TODO ensure that the winner is a leaf node (i.e., maybe use 'hasConnectFour' on the board object to check for win?
     }
     
     /*
