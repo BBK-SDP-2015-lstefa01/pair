@@ -20,23 +20,23 @@ object AI {
     //the first action is initializing the children of state and then recursively initializing their children
     //until depth is met
     
-    if(d < 0){ throw new IllegalArgumentException("You can't have a depth of < 0 levels if you want to create a game tree!")}
+//    if(d < 0){ throw new IllegalArgumentException("You can't have a depth of < 0 levels if you want to create a game tree!")}
     /*
-     * with a depth of '0' nothing will be written to the file, as all that is called is the initialise children method. Nothing 
+     * with a depth of '0' nothing will be written to the file, as all that is called is the initialise children method. Nothing
      */
-    if(d == 0){
+    if(d <= 0){
       //s.board.getPossibleMoves(s.getPlayer().opponent) do we just have to get the possible moves instead of 
       //initialising children?
-      println("InitialiseChildren being called on level d==0.")
-      s.initializeChildren()
-      println("This state's children's length is: "+s.children.length)
+     // println("InitialiseChildren being called on level d==0.")
+//      s.initializeChildren()
+      //println("This state's children's length is: "+s.children.length)
       println("finished")
     }
-    else {
+    if(d>0) {
       s.initializeChildren()
-      println("InitialiseChildren being called on level d>0.")
+    //  println("InitialiseChildren being called on level d>0.")
       for(child <- s.children){
-        println("This state's children's length is: "+ s.children.length)
+     //   println("This state's children's length is: "+ s.children.length)
         createGameTree(child, d-1)//  depth of the tree minus 1
       } //TODO ensure that the winner is a leaf node (i.e., maybe use 'hasConnectFour' on the board object to check for win?
     }
@@ -91,7 +91,7 @@ class AI(private var player: Player, private var depth: Int) extends Solver {
   def evaluateBoard(b: Board): Int = {
     val winner = b.hasConnectFour()
     var value = 0
-    if (winner == null) {
+    if (!winner.isDefined) {
       val locs = b.winLocations()
       for (loc <- locs; p <- loc) {
         value += (if (p == player) 1 else if (p != null) -1 else 0)
@@ -107,7 +107,7 @@ class AI(private var player: Player, private var depth: Int) extends Solver {
         }
         r = r + 1
       }
-      value = (if (winner == player) 1 else -1) * 10000 * numEmpty
+      value = (if (winner.get == player) 1 else -1) * 10000 * numEmpty
     }
     value
   }

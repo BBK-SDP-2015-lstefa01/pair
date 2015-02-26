@@ -2,10 +2,14 @@ package connect4.scala
 
 import java.util.Random
 
+/
+object Dummy{
+  def apply(myColour:Player):Dummy = new Dummy(myColour)
+}
 /**
- * Dummy class
- * @param myColour
- */
+* Dummy class
+* @param myColour
+*/
 
 class Dummy(private var myColour: Player) extends Solver {
 
@@ -15,8 +19,7 @@ class Dummy(private var myColour: Player) extends Solver {
     while (b.getTile(0, column) != null) {
       column = rand.nextInt(Board.NUM_COLS)
     }
-    val move = Array(new Move(myColour, column))
-    move
+    Array(new Move(myColour, column))
   }
 }
 

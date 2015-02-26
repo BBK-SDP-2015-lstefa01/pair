@@ -87,10 +87,10 @@ class State(@BeanProperty var player: Player, @BeanProperty var board: Board, @B
     str = str + ind + "Value: " + value + "\n"
     str = str + board.toString(ind) + "\n"
     if (children != null && children.length > 0) {
-      str = str + ind + "Children at depth " + (d + 1) + ":\n" + ind + //plus one is because the children are one below the parent node.
+      str = str + ind + "Children at depth " + (d+1) + ":\n" + ind + //plus one is because the children are one below the parent node.
         "----------------\n"
       for (s <- children) {
-        str = str + s.toStringHelper(d + 1, ind + "   ")
+        str = str + s.toStringHelper(d+1, ind + "   ")
       }
     }
     str

@@ -8,6 +8,8 @@ object Board {
 
   def apply(b: Board) =
     new Board(b)
+  
+  def apply():Board = new Board()
 }
 
 class Board {
@@ -20,9 +22,9 @@ class Board {
 
   def this(b: Board) {
     this()
-    for (r <- 0 until Board.NUM_ROWS; c <- 0 until Board.NUM_COLS) {
+    for (r <- 0 until Board.NUM_ROWS; c <- 0 until Board.NUM_COLS) 
       board(r)(c) = b.board(r)(c)
-    }
+    
   }
 
   def getPlayer(r: Int, c: Int): Player = {
@@ -106,11 +108,11 @@ class Board {
     str.toString
   }
 
-  def hasConnectFour(): Player = {
+  def hasConnectFour(): Option[Player] = {
     winLocations().find(loc => loc(0) != null && loc(0) == loc(1) && loc(0) == loc(2) &&
       loc(0) == loc(3))
       .map(_(0))
-      .orNull
+      .orElse(None)
   }
 
   def winLocations(): List[Array[Player]] = {
