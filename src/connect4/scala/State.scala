@@ -1,10 +1,8 @@
 package connect4.scala
 
 import java.io.{FileNotFoundException, PrintWriter, UnsupportedEncodingException}
-
-import connect4.scala.State._
-
 import scala.beans.BeanProperty
+import State.length0
 
 object State {
 
@@ -63,7 +61,7 @@ class State(@BeanProperty var player: Player, @BeanProperty var board: Board, @B
    */
   def writeToFile() {
     try {
-      var writer = new PrintWriter("output.txt", "UTF-8")
+      val writer = new PrintWriter("output.txt", "UTF-8")
       writer.println(this)
       java.awt.Toolkit.getDefaultToolkit.beep()
     } catch {
@@ -97,6 +95,6 @@ class State(@BeanProperty var player: Player, @BeanProperty var board: Board, @B
   }
 
   //Need to add Comparable as an interface State implements if we decide to use this
-  override def compareTo(ob: AnyRef): Int = 0
+  override def compareTo(ob: Any): Int = ???
 }
 
