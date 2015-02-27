@@ -30,7 +30,7 @@ object AI {
      // println("InitialiseChildren being called on level d==0.")
 //      s.initializeChildren()
       //println("This state's children's length is: "+s.children.length)
-      println("finished")
+//      println("finished")
     }
     if(d>0) {
       s.initializeChildren()
@@ -79,8 +79,26 @@ class AI(private var player: Player, private var depth: Int) extends Solver {
    * tree rooted at s, indicating how desirable that java.connect4.java.State is to this player.
    */
   def minimax(s: State): Unit = {
-    //assign value to the state
-    //is this where we call evaluateBoard()?
+    /*
+     * traverse the tree until the leaf 
+     * call evaluateBoard() on the leaves
+     * and assign value to those state
+     * then implement algo for child in children...value from child to pass on to parent.
+    */
+    
+    if(s.children.length == 0) {
+      s.value = evaluateBoard(s.board)
+      println("The state's value is: "+s.value)
+//      val tempNode = new TreeNode(null, s.value, null)
+    //BST?
+    }
+    else {
+//      s.children.foreach { x => minimax(x) }
+      for(child <- s.children) {
+//        val anotherNode = new TreeNode(child.children.min, child.value, child.children.max)
+        minimax(child)
+      }
+    }
   }
 
   /**

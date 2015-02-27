@@ -39,10 +39,10 @@ class State(@BeanProperty var player: Player, @BeanProperty var board: Board, @B
   def initializeChildren() {
     var newPlayer = player.opponent
     var possMoves = board.getPossibleMoves(newPlayer)
-    println("Possible moves length: "+possMoves.length)
+//    println("Possible moves length: "+possMoves.length)
     for (move <- possMoves) {
       val newState = new State(newPlayer, new Board(board, move), lastMove) //here we are passing the SAME move, but the 
-      //State's move is the 'lasMove' whereas the Board's move is the 'nextMove'
+      //State's move is the 'lastMove' whereas the Board's move is the 'nextMove'
       children = children.:+(newState)
     }
    // println("Children length:"+children.length)

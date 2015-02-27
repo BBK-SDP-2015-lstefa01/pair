@@ -2,7 +2,7 @@ package connect4.scala
 
 /**
  * 
- * Created by liliya & Esha on 09/02/2015.
+ * Created by Liliya & Esha on 09/02/2015.
  */
  
  /* A representation of a binary tree with the current node as the root.
