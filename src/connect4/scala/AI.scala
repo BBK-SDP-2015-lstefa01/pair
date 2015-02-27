@@ -89,18 +89,25 @@ class AI(private var player: Player, private var depth: Int) extends Solver {
     if(s.children.length == 0) {
       s.value = evaluateBoard(s.board)
       println("The state's value is: "+s.value)
-//      val tempNode = new TreeNode(null, s.value, null)
+      val tempNode = new TreeNode(null, s.value, null)
     //BST?
     }
     else {
 //      s.children.foreach { x => minimax(x) }
       for(child <- s.children) {
+//        val leftNode = new TreeNode(null, child.children.min, null)
 //        val anotherNode = new TreeNode(child.children.min, child.value, child.children.max)
         minimax(child)
+//        min()
       }
     }
   }
+  
+  private def min() = ???
 
+  private def max() = ???
+  
+  
   /**
    * Evaluate the desirability of connect4.java.Board b for this player
    * Precondition: b is a leaf node of the game tree (because that is most
