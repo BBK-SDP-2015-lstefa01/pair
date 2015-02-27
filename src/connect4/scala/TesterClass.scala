@@ -56,7 +56,6 @@ object TesterClass extends App{
 //  println(b.toString());
   
   var tempState = new State(YELLOW, b, move) //is this parameter move correct?? can it be a val?
-  AI.createGameTree(tempState, 1) //depth of the tree includes the root?
   
   var tempChildren = tempState.children
   println("Parent of Temp State!")
