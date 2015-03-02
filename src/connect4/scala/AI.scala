@@ -1,4 +1,5 @@
 package connect4.scala
+
 //remove if not needed
 
 /**
@@ -18,29 +19,16 @@ object AI {
    */
   def createGameTree(s: State, d: Int): Unit = {
     //the first action is initializing the children of state and then recursively initializing their children
-    //until depth is met
-    
-//    if(d < 0){ throw new IllegalArgumentException("You can't have a depth of < 0 levels if you want to create a game tree!")}
-    /*
-     * with a depth of '0' nothing will be written to the file, as all that is called is the initialise children method. Nothing
-     */
-    if(d <= 0){
-      //s.board.getPossibleMoves(s.getPlayer().opponent) do we just have to get the possible moves instead of 
-      //initialising children?
-     // println("InitialiseChildren being called on level d==0.")
-//      s.initializeChildren()
-      //println("This state's children's length is: "+s.children.length)
-//      println("finished")
-    }
-    if(d>0) {
+    //    if(d <= 0){
+    //     nothing to do
+    //    }
+    if (d > 0) {
       s.initializeChildren()
-    //  println("InitialiseChildren being called on level d>0.")
-      for(child <- s.children){
-     //   println("This state's children's length is: "+ s.children.length)
-        createGameTree(child, d-1)//  depth of the tree minus 1
+      for (child <- s.children) {
+        createGameTree(child, d - 1) //  depth of the tree minus 1
       } //TODO ensure that the winner is a leaf node (i.e., maybe use 'hasConnectFour' on the board object to check for win?
     }
-    
+  }
     /*
      * Planning:
      * 1. Tree of States (state has a value of how desirable it is).
@@ -54,7 +42,6 @@ object AI {
      * Call minimax
      * add Value to tree
      */
-  }
 
   /**
    * Call minimax in ai with state s.
@@ -71,8 +58,9 @@ object AI {
 class AI(private var player: Player, private var depth: Int) extends Solver {
 
   override def getMoves(b: Board): Array[Move] = ???
-  /// call get moves on the board which has resulted from the run of minimax? 
-  
+
+  /// call get moves on the board which has resulted from the run of minimax?
+
   /**
    * connect4.java.State s is a node of a game tree (i.e. the current connect4.java.State of the game).
    * Use the Minimax algorithm to assign a numerical value to each connect4.java.State of the
@@ -85,29 +73,40 @@ class AI(private var player: Player, private var depth: Int) extends Solver {
      * and assign value to those state
      * then implement algo for child in children...value from child to pass on to parent.
     */
-    
-    if(s.children.length == 0) {
+
+    if (s.children.length == 0) {
       s.value = evaluateBoard(s.board)
-      println("The state's value is: "+s.value)
-      val tempNode = new TreeNode(null, s.value, null)
-    //BST?
+      println("The state's value is: " + s.value)
     }
     else {
-//      s.children.foreach { x => minimax(x) }
-      for(child <- s.children) {
-//        val leftNode = new TreeNode(null, child.children.min, null)
-//        val anotherNode = new TreeNode(child.children.min, child.value, child.children.max)
+      //      s.children.foreach { x => minimax(x) }
+      for (child <- s.children) {
+        if (s.player == child.player.opponent) {
+
+        }
         minimax(child)
-//        min()
       }
     }
   }
-  
-  private def min() = ???
 
-  private def max() = ???
-  
-  
+  def min(arr: Array[State]): Int = {
+
+    var values: Array[Int] = Array[Int]()
+    for (state <- arr) {
+      values = values.:+(state.value)
+    }
+    values.min
+  }
+
+  def max(arr: Array[State]): Int = {
+    var values: Array[Int] = Array[Int]()
+    for (state <- arr) {
+      values = values.:+(state.value)
+    }
+    values.max
+  }
+
+
   /**
    * Evaluate the desirability of connect4.java.Board b for this player
    * Precondition: b is a leaf node of the game tree (because that is most
