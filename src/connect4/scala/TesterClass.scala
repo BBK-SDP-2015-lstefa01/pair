@@ -2,6 +2,9 @@ package connect4.scala
 
 object TesterClass extends App{
   
+  /***
+   * Started testing makemove
+   */
   //Tests makeMove method works! Yep!
   val b= new Board()
   var move = new Move(RED, 4)
@@ -15,7 +18,9 @@ object TesterClass extends App{
   b.makeMove(new Move(YELLOW, 5))
 //  val state = new State(b.getPlayer(5, 4), b,move)
 
-  
+  /***
+   * Started testing testing initialiseChildren
+   */
 //  state.initializeChildren()
 //  println("Length of children:" + state.children.length)
 //  println("Level 0-Child elements: ")
@@ -60,6 +65,9 @@ object TesterClass extends App{
   
   var tempState = new State(YELLOW, b, lastMove) //is this parameter move correct?? can it be a val? Doesn't get used in createGameTree, could it be for println?
   
+  /***
+   * Started testing createGameTree
+   */
 //  AI.createGameTree(tempState, 1) //depth of the tree includes the root?
   //  val ai = new AI(RED, 3)
   //  AI.minimax(ai, tempState)
@@ -77,6 +85,11 @@ object TesterClass extends App{
 //  game.setGUI(new GUI(game, Board.NUM_COLS, Board.NUM_ROWS));
  // game.runGame()
  // println(b.toString())
+  
+  
+  /***
+   * Started testing minimax
+   */
 val ai = new AI(RED, 3)
 //  tempState.initializeChildren()
 //  for (child <- tempState.children) {
@@ -96,5 +109,10 @@ val ai = new AI(RED, 3)
     println("Child value: " + child.value)
   }
   tempState.writeToFile() 
+  
+  
+  /***
+   * Started testing getMoves
+   */
 }
 
