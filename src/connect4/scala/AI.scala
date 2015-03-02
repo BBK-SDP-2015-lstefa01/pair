@@ -57,10 +57,30 @@ object AI {
  */
 class AI(private var player: Player, private var depth: Int) extends Solver {
 
-  override def getMoves(b: Board): Array[Move] = ???
-
-  /// call get moves on the board which has resulted from the run of minimax?
-
+   /**
+     * Return this AI's preferred Moves. If this AI prefers one
+     * Move above all others, return an array of length 1. Larger arrays
+     * indicate equally preferred Moves.
+     * An array of size 0 indicates that there are no possible moves.
+     * Precondition: b is not null.
+     */
+  // call getMoves on the board which has resulted from the run of minimax
+  override def getMoves(b: Board): Array[Move] = {
+  val newState = new State(player, b, null) //lastMove?
+  AI.createGameTree(newState, depth)
+  minimax(newState) 
+  /*
+   * Have a tree with all values in states. newState has a numerical value to represent the preferred moves
+   * 
+   */
+  
+  
+  val moves = Array[Move]()
+  
+  
+  moves
+  }
+  
   /**
    * connect4.java.State s is a node of a game tree (i.e. the current connect4.java.State of the game).
    * Use the Minimax algorithm to assign a numerical value to each connect4.java.State of the
