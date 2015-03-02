@@ -60,7 +60,7 @@ object TesterClass extends App{
   
   var tempState = new State(YELLOW, b, lastMove) //is this parameter move correct?? can it be a val? Doesn't get used in createGameTree, could it be for println?
   
-  AI.createGameTree(tempState, 1) //depth of the tree includes the root?
+//  AI.createGameTree(tempState, 1) //depth of the tree includes the root?
   //  val ai = new AI(RED, 3)
   //  AI.minimax(ai, tempState)
   //
@@ -78,16 +78,23 @@ object TesterClass extends App{
  // game.runGame()
  // println(b.toString())
 val ai = new AI(RED, 3)
-  tempState.initializeChildren()
-  for (child <- tempState.children) {
-    ai.evaluateBoard(child.board)
-    println(child.board)
-    println("Child value: " + child.value)
-  }
-  val arr: Array[State] = tempState.children
+//  tempState.initializeChildren()
+//  for (child <- tempState.children) {
+//    ai.evaluateBoard(child.board)
+//    println(child.board)
+//    println("Child value: " + child.value)
+//  }
+//  val arr: Array[State] = tempState.children
 
   //println(AI.min(arr))
   //println(AI.max(arr))
-
+  
+    AI.createGameTree(tempState, 3)
+    AI.minimax(ai, tempState)
+    for (child <- tempState.children) {
+    println(child.board)
+    println("Child value: " + child.value)
+  }
+  tempState.writeToFile() 
 }
 

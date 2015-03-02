@@ -76,20 +76,26 @@ class AI(private var player: Player, private var depth: Int) extends Solver {
 
     if (s.children.length == 0) {
       s.value = evaluateBoard(s.board)
-      println("The state's value is: " + s.value)
+//      println("The state's value is: " + s.value)
     }
     else {
-      //      s.children.foreach { x => minimax(x) }
+      
       for (child <- s.children) {
-        if (s.player == child.player.opponent) {
-
-        }
         minimax(child)
+        if (s.player == child.player.opponent) {
+        s.value = min(s.children)
+        }
+        else {
+        s.value = max(s.children)
+        }
       }
     }
   }
 
-  def min(arr: Array[State]): Int = {
+  /**
+   * helper method for calculating min value of children values for minimax
+   */
+  private def min(arr: Array[State]): Int = {
 
     var values: Array[Int] = Array[Int]()
     for (state <- arr) {
@@ -98,7 +104,10 @@ class AI(private var player: Player, private var depth: Int) extends Solver {
     values.min
   }
 
-  def max(arr: Array[State]): Int = {
+  /**
+   * helper method for calculating max value of children values for minimax
+   */
+  private def max(arr: Array[State]): Int = {
     var values: Array[Int] = Array[Int]()
     for (state <- arr) {
       values = values.:+(state.value)
