@@ -68,16 +68,13 @@ class AI(private var player: Player, private var depth: Int) extends Solver {
   override def getMoves(b: Board): Array[Move] = {
   val newState = new State(player, b, null) //lastMove?
   AI.createGameTree(newState, depth)
-  minimax(newState) 
-  /*
-   * Have a tree with all values in states. newState has a numerical value to represent the preferred moves
-   * 
-   */
-  
-  
+  minimax(newState)
+  println(newState.value)
+  newState.writeToFile()
+  //Have a tree with all values in states. newState has a numerical value to represent the preferred moves
   val moves = Array[Move]()
-  
-  
+  //CHECK NUMBER OF DUPS IN ARRAY FOR MIN/MAX VALUES
+  //ADD CHILDREN.STATE.LASTMOVE TO MOVE ARRAY IF MIN/MAX?
   moves
   }
   

@@ -7,11 +7,14 @@ object TesterClass extends App{
    */
   //Tests makeMove method works! Yep!
   val b= new Board()
-  var move = new Move(RED, 4)
+  var move = new Move(YELLOW, 4)
   b.makeMove(move)
  // println(b)
  
   b.makeMove(new Move(YELLOW, 4))
+  b.makeMove(new Move(YELLOW, 4))
+//  b.makeMove(new Move(YELLOW, 4))
+
   b.makeMove(new Move(RED, 5))
   b.makeMove(new Move(YELLOW, 6))
   b.makeMove(new Move(RED, 6))
@@ -61,9 +64,9 @@ object TesterClass extends App{
 //  println("final board looks like...")
 //  println(b.toString());
   
-  var lastMove = new Move(RED, 4)
+//  var lastMove = new Move(RED, 4)
   
-  var tempState = new State(YELLOW, b, lastMove) //is this parameter move correct?? can it be a val? Doesn't get used in createGameTree, could it be for println?
+//  var tempState = new State(YELLOW, b, lastMove) //is this parameter move correct?? can it be a val? Doesn't get used in createGameTree, could it be for println?
   
   /***
    * Started testing createGameTree
@@ -78,7 +81,7 @@ object TesterClass extends App{
 //  println("Children of temp state: ")
 //  for(c<-tempChildren){println(c)}
 //
-  tempState.writeToFile() //Could also put this line of code inside the recursive method.
+//  tempState.writeToFile() //Could also put this line of code inside the recursive method.
   
 //  val game= new Game(p1, p2, b, true)
   //we realised that the game constructor with the 4th parameter set to 'false' does not work just yet
@@ -90,7 +93,7 @@ object TesterClass extends App{
   /***
    * Started testing minimax
    */
-val ai = new AI(RED, 3)
+val ai = new AI(YELLOW, 2)
 //  tempState.initializeChildren()
 //  for (child <- tempState.children) {
 //    ai.evaluateBoard(child.board)
@@ -102,17 +105,23 @@ val ai = new AI(RED, 3)
   //println(AI.min(arr))
   //println(AI.max(arr))
   
-    AI.createGameTree(tempState, 3)
-    AI.minimax(ai, tempState)
-    for (child <- tempState.children) {
-    println(child.board)
-    println("Child value: " + child.value)
-  }
-  tempState.writeToFile() 
-  
+//    AI.createGameTree(tempState, 3)
+//    AI.minimax(ai, tempState)
+//    for (child <- tempState.children) {
+//    println(child.board)
+//    println("Child value: " + child.value)
+//  }
+//  tempState.writeToFile() 
+//  
   
   /***
    * Started testing getMoves
    */
+  
+//    AI.createGameTree(tempState, 3)
+    ai.getMoves(b)
+
+
+  
 }
 
