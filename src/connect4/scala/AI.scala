@@ -80,16 +80,19 @@ class AI(private var player: Player, private var depth: Int) extends Solver {
     //Have a tree with all values in states. newState has a numerical value to represent the preferred moves
     //CHECK NUMBER OF DUPS IN ARRAY FOR MIN/MAX VALUES
     //ADD CHILDREN.STATE.LASTMOVE TO MOVE ARRAY IF MIN/MAX?
-    println("Childs of state:" + newState.children.deep.mkString("\n"))
+    //We have established that we need to be getting the value of the leaf node equivalent to the value of the root node 
+    //in order for the AI to actually work
     for (child1 <- newState.children) {
-      if (child1.value == newState.value) {
-        childState = child1 // FIXME need to look up how to find first item that matches in array-currently it's overridden
-        println(childState.player)
-        bestMoves = bestMoves.+:(childState.getLastMove)
+      for (child2 <- child1.children) {
+        if (child2.value == newState.value) {
+          println("found")
+          childState = child2 // FIXME need to look up how to find first item that matches in array-currently it's overridden
+          println(childState.player)
+          bestMoves = bestMoves.+:(childState.getLastMove)
+        }
       }
-
     }
-    println("best moves: " + bestMoves.length + println(bestMoves))
+    println("best moves: " + bestMoves.length + println(bestMoves.deep.mkString("\n")))
     bestMoves.toArray
   }
 
