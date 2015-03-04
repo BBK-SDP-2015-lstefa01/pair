@@ -72,7 +72,9 @@ class AI(private var player: Player, private var depth: Int) extends Solver {
   override def getMoves(b: Board): Array[Move] = {
     val newState = new State(player, b, null) //lastMove?
     var bestMoves = Array[Move]()
+    
     AI.createGameTree(newState, depth)
+    
     var childState: State = null
     minimax(newState)
     //     println(newState)
@@ -82,18 +84,45 @@ class AI(private var player: Player, private var depth: Int) extends Solver {
     //ADD CHILDREN.STATE.LASTMOVE TO MOVE ARRAY IF MIN/MAX?
     //We have established that we need to be getting the value of the leaf node equivalent to the value of the root node 
     //in order for the AI to actually work
-    for (child1 <- newState.children) {
-      for (child2 <- child1.children) {
-        if (child2.value == newState.value) {
-          println("found")
-          childState = child2 // FIXME need to look up how to find first item that matches in array-currently it's overridden
-          println(childState.player)
-          bestMoves = bestMoves.+:(childState.getLastMove)
-        }
-      }
-    }
+    
+    
+//    for (child1 <- newState.children) {
+//      for (child2 <- child1.children) {
+//        if (child2.value == newState.value) {
+//          println("found")
+//          childState = child2 // FIXME need to look up how to find first item that matches in array-currently it's overridden
+//          println(childState.player)
+//          bestMoves = bestMoves.+:(childState.getLastMove)
+//        }
+//      }
+//    }
+    
+    //recursive call to leaf
+    val bestMoveToAdd = treeTraverser(newState).getLastMove()
+    bestMoves = bestMoves.:+(bestMoveToAdd)
+    
+    
     println("best moves: " + bestMoves.length + println(bestMoves.deep.mkString("\n")))
-    bestMoves.toArray
+    bestMoves
+  }
+  
+  /**
+   * Helper to the getMoves method: traverses to the leaf node to return the matching state's value.
+   */
+  private def treeTraverser(state:State): State = {
+    if (state.children.length == 0) {
+      //got to leaf, get the move
+      return state
+    } else {
+//    for (child <- state.children) {
+//      if (child.value == state.value){
+        //go down that subtree. newState --> newState's child...traverse the tree
+        val ret = treeTraverser(state.children.find({ x => x.value == state.value }).get)
+         println("Value returned by traverser: " + ret)
+         ret
+//      }  
+    
+    }
   }
 
   /**
