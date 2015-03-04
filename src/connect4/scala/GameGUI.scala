@@ -13,8 +13,8 @@ object GameGUI extends App {
          * game space. */
   //Solver p1= new AI(Player.RED, 6);
   //Solver p2= new Human(Player.YELLOW);
-  val p1 = new Human(YELLOW);
-  val p2 = new AI(RED, 2);
+  val p1 = new AI(RED, 5);
+  val p2 = new Human(YELLOW);
 
   /* --------------------------------- Do not change below here. --------------------------------- */
 
