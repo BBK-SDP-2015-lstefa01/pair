@@ -7,18 +7,16 @@ object TesterClass extends App{
    */
   //Tests makeMove method works! Yep!
   val b= new Board()
-  var move = new Move(YELLOW, 4)
-  b.makeMove(move)
+  b.makeMove(new Move(RED, 6))
  // println(b)
- 
-  b.makeMove(new Move(YELLOW, 4))
-  b.makeMove(new Move(YELLOW, 4))
+
+  // b.makeMove(new Move(YELLOW, 4))
+  // b.makeMove(new Move(YELLOW, 4))
 //  b.makeMove(new Move(YELLOW, 4))
 
-  b.makeMove(new Move(RED, 5))
-  b.makeMove(new Move(YELLOW, 6))
-  b.makeMove(new Move(RED, 6))
-  b.makeMove(new Move(YELLOW, 5))
+  //b.makeMove(new Move(RED, 5))
+  //val lastMove = new Move(RED, 6)
+  //b.makeMove(lastMove)
 //  val state = new State(b.getPlayer(5, 4), b,move)
 
   /***
