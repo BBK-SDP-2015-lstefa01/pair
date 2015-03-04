@@ -1,5 +1,8 @@
 package connect4.scala
 
+import scala.collection.mutable.ArrayBuffer
+import scala.util.control.Breaks._
+
 //remove if not needed
 
 /**
@@ -29,19 +32,20 @@ object AI {
       } //TODO ensure that the winner is a leaf node (i.e., maybe use 'hasConnectFour' on the board object to check for win?
     }
   }
-    /*
-     * Planning:
-     * 1. Tree of States (state has a value of how desirable it is).
-     * 2. Call evaluate board on a leaf node
-     * 3. base case of recursion when d iterator == 'd'
-     
-     * In another method:
-     * Call initialise children on each level until we get to the depth of the tree
-     * When we get to the final level of depth, retain the last level
-     * Call evalChildren on the last level of the children
-     * Call minimax
-     * add Value to tree
-     */
+
+  /*
+   * Planning:
+   * 1. Tree of States (state has a value of how desirable it is).
+   * 2. Call evaluate board on a leaf node
+   * 3. base case of recursion when d iterator == 'd'
+
+   * In another method:
+   * Call initialise children on each level until we get to the depth of the tree
+   * When we get to the final level of depth, retain the last level
+   * Call evalChildren on the last level of the children
+   * Call minimax
+   * add Value to tree
+   */
 
   /**
    * Call minimax in ai with state s.
@@ -57,27 +61,38 @@ object AI {
  */
 class AI(private var player: Player, private var depth: Int) extends Solver {
 
-   /**
-     * Return this AI's preferred Moves. If this AI prefers one
-     * Move above all others, return an array of length 1. Larger arrays
-     * indicate equally preferred Moves.
-     * An array of size 0 indicates that there are no possible moves.
-     * Precondition: b is not null.
-     */
+  /**
+   * Return this AI's preferred Moves. If this AI prefers one
+   * Move above all others, return an array of length 1. Larger arrays
+   * indicate equally preferred Moves.
+   * An array of size 0 indicates that there are no possible moves.
+   * Precondition: b is not null.
+   */
   // call getMoves on the board which has resulted from the run of minimax
   override def getMoves(b: Board): Array[Move] = {
-  val newState = new State(player, b, null) //lastMove?
-  AI.createGameTree(newState, depth)
-  minimax(newState)
-  println(newState.value)
-  newState.writeToFile()
-  //Have a tree with all values in states. newState has a numerical value to represent the preferred moves
-  val moves = Array[Move]()
-  //CHECK NUMBER OF DUPS IN ARRAY FOR MIN/MAX VALUES
-  //ADD CHILDREN.STATE.LASTMOVE TO MOVE ARRAY IF MIN/MAX?
-  moves
+    val newState = new State(player, b, null) //lastMove?
+    var bestMoves = Array[Move]()
+    AI.createGameTree(newState, depth)
+    var childState: State = null
+    minimax(newState)
+    //     println(newState)
+    newState.writeToFile()
+    //Have a tree with all values in states. newState has a numerical value to represent the preferred moves
+    //CHECK NUMBER OF DUPS IN ARRAY FOR MIN/MAX VALUES
+    //ADD CHILDREN.STATE.LASTMOVE TO MOVE ARRAY IF MIN/MAX?
+    println("Childs of state:" + newState.children.deep.mkString("\n"))
+    for (child1 <- newState.children) {
+      if (child1.value == newState.value) {
+        childState = child1 // FIXME need to look up how to find first item that matches in array-currently it's overridden
+        println(childState.player)
+        bestMoves = bestMoves.+:(childState.getLastMove)
+      }
+
+    }
+    println("best moves: " + bestMoves.length + println(bestMoves))
+    bestMoves.toArray
   }
-  
+
   /**
    * connect4.java.State s is a node of a game tree (i.e. the current connect4.java.State of the game).
    * Use the Minimax algorithm to assign a numerical value to each connect4.java.State of the
@@ -93,17 +108,16 @@ class AI(private var player: Player, private var depth: Int) extends Solver {
 
     if (s.children.length == 0) {
       s.value = evaluateBoard(s.board)
-//      println("The state's value is: " + s.value)
+      //      println("The state's value is: " + s.value)
     }
     else {
-      
       for (child <- s.children) {
         minimax(child)
-        if (s.player == child.player.opponent) {
-        s.value = min(s.children)
+        if (s.player == player) {
+          s.value = max(s.children)
         }
         else {
-        s.value = max(s.children)
+          s.value = min(s.children)
         }
       }
     }
@@ -113,7 +127,6 @@ class AI(private var player: Player, private var depth: Int) extends Solver {
    * helper method for calculating min value of children values for minimax
    */
   private def min(arr: Array[State]): Int = {
-
     var values: Array[Int] = Array[Int]()
     for (state <- arr) {
       values = values.:+(state.value)

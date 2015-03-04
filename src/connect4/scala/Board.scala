@@ -79,7 +79,7 @@ class Board {
 
     for (i <- 0 until Board.NUM_COLS) {
       if (getTile(0, i) != null) {
-        println("The " + i + "th column is full")
+        // println("The " + i + "th column is full")
       }
       else {
         possMoveArr = possMoveArr.:+(new Move(p, i))

@@ -85,8 +85,8 @@ object Game extends App {
 
   private val SLEEP_INTERVAL = 10000
 
-  val p1 = new Dummy(RED)
-  val p2 = new Dummy(YELLOW)
+  val p1 = new AI(RED, 2)
+  val p2 = new AI(YELLOW, 2)
   val game = new Game(p1, p2)
   game.runGame()
 }
