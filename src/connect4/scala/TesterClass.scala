@@ -1,13 +1,13 @@
 package connect4.scala
 
-object TesterClass {
+object TesterClass extends App {
   
   /***
    * Started testing makemove
    */
   //Tests makeMove method works! Yep!
-  val b= new Board()
-  b.makeMove(new Move(RED, 6))
+  // val b= new Board()
+  // b.makeMove(new Move(RED, 6))
  // println(b)
 
   // b.makeMove(new Move(YELLOW, 4))
@@ -61,11 +61,11 @@ object TesterClass {
   
 //  println("final board looks like...")
 //  println(b.toString());
-  
-//  var lastMove = new Move(RED, 4)
-  
-//  var tempState = new State(YELLOW, b, lastMove) //is this parameter move correct?? can it be a val? Doesn't get used in createGameTree, could it be for println?
-  
+
+  //var lastMove = new Move(RED, 4)
+
+  //  var tempState = new State(YELLOW, b, null) //is this parameter move correct?? can it be a val? Doesn't get used in createGameTree, could it be for println?
+
   /***
    * Started testing createGameTree
    */
@@ -102,14 +102,14 @@ val ai = new AI(YELLOW, 2)
 
   //println(AI.min(arr))
   //println(AI.max(arr))
-  
-//    AI.createGameTree(tempState, 3)
-//    AI.minimax(ai, tempState)
+
+  // AI.createGameTree(tempState, 2)
+  //AI.minimax(ai, tempState)
 //    for (child <- tempState.children) {
 //    println(child.board)
 //    println("Child value: " + child.value)
 //  }
-//  tempState.writeToFile() 
+  // tempState.writeToFile()
 //  
   
   /***
@@ -117,7 +117,7 @@ val ai = new AI(YELLOW, 2)
    */
   
 //    AI.createGameTree(tempState, 3)
-    ai.getMoves(b)
+  //   ai.getMoves(b)
 
 
   
