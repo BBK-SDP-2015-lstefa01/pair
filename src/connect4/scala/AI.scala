@@ -77,7 +77,6 @@ class AI(private var player: Player, private var depth: Int) extends Solver {
     
     var childState: State = null
     minimax(newState)
-    //     println(newState)
     newState.writeToFile()
     //Have a tree with all values in states. newState has a numerical value to represent the preferred moves
     //CHECK NUMBER OF DUPS IN ARRAY FOR MIN/MAX VALUES
@@ -129,14 +128,11 @@ class AI(private var player: Player, private var depth: Int) extends Solver {
    * connect4.java.State s is a node of a game tree (i.e. the current connect4.java.State of the game).
    * Use the Minimax algorithm to assign a numerical value to each connect4.java.State of the
    * tree rooted at s, indicating how desirable that java.connect4.java.State is to this player.
+   * Approach - traverse the tree until the leaf level then call evaluateBoard() on the leaves
+   * and assign value to those states then  pass the appropriate value (min or max) from child to pass on to parent.
    */
   def minimax(s: State): Unit = {
-    /*
-     * traverse the tree until the leaf 
-     * call evaluateBoard() on the leaves
-     * and assign value to those state
-     * then implement algo for child in children...value from child to pass on to parent.
-    */
+
 
     if (s.children.length == 0) {
       s.value = evaluateBoard(s.board)
