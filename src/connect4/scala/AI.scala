@@ -1,5 +1,5 @@
 package connect4.scala
-
+import State.length0
 import scala.collection.mutable.ArrayBuffer
 import scala.util.control.Breaks._
 
@@ -61,6 +61,7 @@ object AI {
  */
 class AI(private var player: Player, private var depth: Int) extends Solver {
 
+
   /**
    * Return this AI's preferred Moves. If this AI prefers one
    * Move above all others, return an array of length 1. Larger arrays
@@ -97,7 +98,25 @@ class AI(private var player: Player, private var depth: Int) extends Solver {
 //    }
     
     //recursive call to leaf
-    val bestMoveToAdd = treeTraverser(newState).getLastMove()
+//    val bestMoveToAdd = treeTraverser(newState).getLastMove()
+    
+//    val bestMoveToAdd = {
+      
+      (state:State) => 
+      
+//    def helper(state:State): State = {
+      if (state.children.length == 0)  state
+//  }
+    for (i<-0 until newState.children.length) {
+      println("hiya") 
+      if (newState.children(i).value == newState.value) { 
+     findChild(newState.children(i))
+      }
+    }  
+//    } 
+    }
+  
+//  findChild(newState).getLastMove()
     bestMoves = bestMoves.:+(bestMoveToAdd)
     
     
@@ -106,23 +125,63 @@ class AI(private var player: Player, private var depth: Int) extends Solver {
   }
   
   /**
-   * Helper to the getMoves method: traverses to the leaf node to return the matching state's value.
+   * Helper to find the matching value in the children
    */
-  private def treeTraverser(state:State): State = {
-    if (state.children.length == 0) {
-      //got to leaf, get the move
-      return state
-    } else {
-//    for (child <- state.children) {
-//      if (child.value == state.value){
-        //go down that subtree. newState --> newState's child...traverse the tree
-        val ret = treeTraverser(state.children.find({ x => x.value == state.value }).get)
-         println("Value returned by traverser: " + ret)
-         ret
-//      }  
-    
+  private def findChild(state:State): State = {
+    def helper(state:State): State = {
+      if (state.children.length == 0) {
     }
+      return state
   }
+    for (i<-0 until state.children.length) {
+      println("hiya")
+      if (state.children(i).value == state.value) { 
+     findChild(state.children(i))
+      }
+    }
+  findChild(state)
+  }
+//  /**
+//   * Helper to the getMoves method: traverses to the leaf node to return the matching state's value.
+//   */
+//  private def treeTraverser(state:State): State = {
+//    def start(state:State, returnState:State) :State = {
+//     
+//    
+//    if (state.children.length == 0) {
+//      return state
+//  }
+//    else {
+//      println("Got here")
+//      for (i<-0 until state.children.length) {
+//      if (state.children(i).value == state.value){
+//        //go down that subtree. newState --> newState's child...traverse the tree
+//        //treeTraverser(state.children(i))
+////         println("Value returned by traverser: " + ret)
+//        start(state, state.children(i))
+//      }  
+//    }
+//    }
+//  start(state, null)
+//  }
+//  }
+  
+  /*
+   * could we use a matching path to find the state's value and last move?
+   */
+  //REF: http://stackoverflow.com/questions/17511433/scala-tree-insert-tail-recursion-with-complex-structure
+//  type MatchingPath = List[(State, Boolean)]
+//  
+//  private def findMatchingPath(state: State, value:Int): MatchingPath = {
+//    def loopUntilYouFindLeaf(state:State, matching:MatchingPath): MatchingPath =
+//      state.children match {
+//      case null => matching
+//      case contains (value)
+//      
+//    }
+//  }
+  
+  
 
   /**
    * connect4.java.State s is a node of a game tree (i.e. the current connect4.java.State of the game).

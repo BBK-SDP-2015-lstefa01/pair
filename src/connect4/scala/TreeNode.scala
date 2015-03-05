@@ -12,7 +12,17 @@ package connect4.scala
 
 case class TreeNode(private var left: TreeNode, v: Int, private var right: TreeNode) {
   private var value: Int = v
-
+  
+  /*
+   * thinking about add method for tree
+   */
+//  def add(newVal:Int):Unit ={
+//    newVal match {
+//      case none => new TreeNode (null, v, null)
+//      case 0 => new TreeNode (null, v, null)
+//      case newVal < val => TreeNode()
+//      }
+//  }
   /**
      * Return true iff this tree is a Binary Search Tree (BST).
      * A BST has these following properties:
