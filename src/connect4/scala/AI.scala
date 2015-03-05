@@ -1,7 +1,4 @@
 package connect4.scala
-import State.length0
-import scala.collection.mutable.ArrayBuffer
-import scala.util.control.Breaks._
 
 //remove if not needed
 
@@ -18,34 +15,18 @@ object AI {
    * With d around 5 or 6, it is extremely slow and will start to take a very
    * long time to run.
    * <p/>
+   * Initialize children of states recursively down the tree* 
    * Note: If s has a winner (four in a row), it should be a leaf.
    */
+  //TODO ensure that the winner is a leaf node (i.e., maybe use 'hasConnectFour' on the board object to check for win?
   def createGameTree(s: State, d: Int): Unit = {
-    //the first action is initializing the children of state and then recursively initializing their children
-    //    if(d <= 0){
-    //     nothing to do
-    //    }
     if (d > 0) {
       s.initializeChildren()
       for (child <- s.children) {
         createGameTree(child, d - 1) //  depth of the tree minus 1
-      } //TODO ensure that the winner is a leaf node (i.e., maybe use 'hasConnectFour' on the board object to check for win?
+      } 
     }
   }
-
-  /*
-   * Planning:
-   * 1. Tree of States (state has a value of how desirable it is).
-   * 2. Call evaluate board on a leaf node
-   * 3. base case of recursion when d iterator == 'd'
-
-   * In another method:
-   * Call initialise children on each level until we get to the depth of the tree
-   * When we get to the final level of depth, retain the last level
-   * Call evalChildren on the last level of the children
-   * Call minimax
-   * add Value to tree
-   */
 
   /**
    * Call minimax in ai with state s.
@@ -61,7 +42,6 @@ object AI {
  */
 class AI(private var player: Player, private var depth: Int) extends Solver {
 
-
   /**
    * Return this AI's preferred Moves. If this AI prefers one
    * Move above all others, return an array of length 1. Larger arrays
@@ -69,133 +49,126 @@ class AI(private var player: Player, private var depth: Int) extends Solver {
    * An array of size 0 indicates that there are no possible moves.
    * Precondition: b is not null.
    */
-  // call getMoves on the board which has resulted from the run of minimax
   override def getMoves(b: Board): Array[Move] = {
-    val newState = new State(player, b, null) //lastMove?
+
+    val rootState = new State(player, b, null) //last move is null because last move of root tree is unknown
     var bestMoves = Array[Move]()
-    
-    AI.createGameTree(newState, depth)
-    
+
+    AI.createGameTree(rootState, depth)
+
     var childState: State = null
-    minimax(newState)
-    //     println(newState)
-    newState.writeToFile()
-    //Have a tree with all values in states. newState has a numerical value to represent the preferred moves
+    minimax(rootState)
+
+    //Have a tree with all values in states. rootState has a numerical value to represent the preferred moves
     //CHECK NUMBER OF DUPS IN ARRAY FOR MIN/MAX VALUES
     //ADD CHILDREN.STATE.LASTMOVE TO MOVE ARRAY IF MIN/MAX?
-    //We have established that we need to be getting the value of the leaf node equivalent to the value of the root node 
+    //We have established that we need to be getting the value of the leaf node equivalent to the value of the root node
     //in order for the AI to actually work
-    
-    
-//    for (child1 <- newState.children) {
-//      for (child2 <- child1.children) {
-//        if (child2.value == newState.value) {
-//          println("found")
-//          childState = child2 // FIXME need to look up how to find first item that matches in array-currently it's overridden
-//          println(childState.player)
-//          bestMoves = bestMoves.+:(childState.getLastMove)
-//        }
-//      }
-//    }
-    
-    //recursive call to leaf
-//    val bestMoveToAdd = treeTraverser(newState).getLastMove()
-    
-//    val bestMoveToAdd = {
-      
-      (state:State) => 
-      
-//    def helper(state:State): State = {
-      if (state.children.length == 0)  state
-//  }
-    for (i<-0 until newState.children.length) {
-      println("hiya") 
-      if (newState.children(i).value == newState.value) { 
-     findChild(newState.children(i))
+
+    for (child1 <- rootState.children) {
+      if (child1.value == rootState.value) {
+        for (child2 <- child1.children) {
+          if (child2.value == rootState.value) {
+            //          println("found")
+            childState = child2 // FIXME need to look up how to find first item that matches in array-currently it's overridden
+            bestMoves = bestMoves.:+(childState.getLastMove)
+          }
+        }
       }
-    }  
-//    } 
     }
-  
-//  findChild(newState).getLastMove()
-    bestMoves = bestMoves.:+(bestMoveToAdd)
-    
-    
-    println("best moves: " + bestMoves.length + println(bestMoves.deep.mkString("\n")))
+    rootState.writeToFile()
+    //recursive call to leaf
+    //    val bestMoveToAdd = treeTraverser(rootState).getLastMove()
+
+    //    val bestMoveToAdd = {
+
+    //      (state:State) =>
+    //
+    ////    def helper(state:State): State = {
+    //      if (state.children.length == 0)  state
+    ////  }
+    //    for (i<-0 until rootState.children.length) {
+    //      println("hiya")
+    //      if (rootState.children(i).value == rootState.value) {
+    //     findChild(rootState.children(i))
+    //      }
+    //    }
+    ////    }
+    //    val bestMoveToAdd = new Move(RED, 3)
+    ////  findChild(rootState).getLastMove()
+    //    bestMoves = bestMoves.:+(bestMoveToAdd)
+    println("Length: " + bestMoves.length)
     bestMoves
-  }
-  
+    }
+
+
   /**
    * Helper to find the matching value in the children
    */
-  private def findChild(state:State): State = {
-    def helper(state:State): State = {
-      if (state.children.length == 0) {
-    }
-      return state
-  }
-    for (i<-0 until state.children.length) {
-      println("hiya")
-      if (state.children(i).value == state.value) { 
-     findChild(state.children(i))
-      }
-    }
-  findChild(state)
-  }
-//  /**
-//   * Helper to the getMoves method: traverses to the leaf node to return the matching state's value.
-//   */
-//  private def treeTraverser(state:State): State = {
-//    def start(state:State, returnState:State) :State = {
-//     
-//    
-//    if (state.children.length == 0) {
-//      return state
-//  }
-//    else {
-//      println("Got here")
-//      for (i<-0 until state.children.length) {
-//      if (state.children(i).value == state.value){
-//        //go down that subtree. newState --> newState's child...traverse the tree
-//        //treeTraverser(state.children(i))
-////         println("Value returned by traverser: " + ret)
-//        start(state, state.children(i))
-//      }  
-//    }
-//    }
-//  start(state, null)
-//  }
-//  }
-  
+  //  private def findChild(state:State): State = {
+  //    def helper(state:State): State = {
+  //      if (state.children.length == 0) {
+  //    }
+  //      return state
+  //  }
+  //    for (i<-0 until state.children.length) {
+  //      println("hiya")
+  //      if (state.children(i).value == state.value) {
+  //     findChild(state.children(i))
+  //      }
+  //    }
+  //  findChild(state)
+  //  }
+  //  /**
+  //   * Helper to the getMoves method: traverses to the leaf node to return the matching state's value.
+  //   */
+  //  private def treeTraverser(state:State): State = {
+  //    def start(state:State, returnState:State) :State = {
+  //
+  //
+  //    if (state.children.length == 0) {
+  //      return state
+  //  }
+  //    else {
+  //      println("Got here")
+  //      for (i<-0 until state.children.length) {
+  //      if (state.children(i).value == state.value){
+  //        //go down that subtree. newState --> newState's child...traverse the tree
+  //        //treeTraverser(state.children(i))
+  ////         println("Value returned by traverser: " + ret)
+  //        start(state, state.children(i))
+  //      }
+  //    }
+  //    }
+  //  start(state, null)
+  //  }
+  //  }
+
   /*
-   * could we use a matching path to find the state's value and last move?
-   */
+ * could we use a matching path to find the state's value and last move?
+ */
   //REF: http://stackoverflow.com/questions/17511433/scala-tree-insert-tail-recursion-with-complex-structure
-//  type MatchingPath = List[(State, Boolean)]
-//  
-//  private def findMatchingPath(state: State, value:Int): MatchingPath = {
-//    def loopUntilYouFindLeaf(state:State, matching:MatchingPath): MatchingPath =
-//      state.children match {
-//      case null => matching
-//      case contains (value)
-//      
-//    }
-//  }
-  
-  
+  //  type MatchingPath = List[(State, Boolean)]
+  //
+  //  private def findMatchingPath(state: State, value:Int): MatchingPath = {
+  //    def loopUntilYouFindLeaf(state:State, matching:MatchingPath): MatchingPath =
+  //      state.children match {
+  //      case null => matching
+  //      case contains (value)
+  //
+  //    }
+  //  }
+
 
   /**
    * connect4.java.State s is a node of a game tree (i.e. the current connect4.java.State of the game).
    * Use the Minimax algorithm to assign a numerical value to each connect4.java.State of the
    * tree rooted at s, indicating how desirable that java.connect4.java.State is to this player.
+   * Approach - traverse the tree until the leaf level then call evaluateBoard() on the leaves
+   * and assign value to those states then  pass the appropriate value (minValue or maxValue) from child to pass on to parent.
    */
   def minimax(s: State): Unit = {
-    /*
-     * traverse the tree until the leaf 
-     * call evaluateBoard() on the leaves
-     * and assign value to those state
-     * then implement algo for child in children...value from child to pass on to parent.
-    */
+
 
     if (s.children.length == 0) {
       s.value = evaluateBoard(s.board)
@@ -205,19 +178,19 @@ class AI(private var player: Player, private var depth: Int) extends Solver {
       for (child <- s.children) {
         minimax(child)
         if (s.player == player) {
-          s.value = max(s.children)
+          s.value = maxValue(s.children)
         }
         else {
-          s.value = min(s.children)
+          s.value = minValue(s.children)
+        }
         }
       }
     }
-  }
 
   /**
-   * helper method for calculating min value of children values for minimax
+   * helper method for calculating minValue value of children values for minimax
    */
-  private def min(arr: Array[State]): Int = {
+  private def minValue(arr: Array[State]): Int = {
     var values: Array[Int] = Array[Int]()
     for (state <- arr) {
       values = values.:+(state.value)
@@ -226,9 +199,9 @@ class AI(private var player: Player, private var depth: Int) extends Solver {
   }
 
   /**
-   * helper method for calculating max value of children values for minimax
+   * helper method for calculating maxValue value of children values for minimax
    */
-  private def max(arr: Array[State]): Int = {
+  private def maxValue(arr: Array[State]): Int = {
     var values: Array[Int] = Array[Int]()
     for (state <- arr) {
       values = values.:+(state.value)
