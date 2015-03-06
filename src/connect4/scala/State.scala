@@ -37,12 +37,14 @@ class State(@BeanProperty var player: Player, @BeanProperty var board: Board, @B
    * initialize all descendants.
    */
   def initializeChildren() {
-    val newPlayer = player.opponent
-    val possMoves = board.getPossibleMoves(newPlayer)
+    val possMoves = board.getPossibleMoves(player)
 //    println("Possible moves length: "+possMoves.length)
     for (move <- possMoves) {
-      lastMove = move
-      val newState = new State(newPlayer, new Board(board, move), lastMove) //here we are passing the SAME move, but the
+      
+      val anotherBoard = new Board(board)
+      anotherBoard.makeMove(move)
+      
+      val newState = new State(player.opponent, anotherBoard, move) //here we are passing the SAME move, but the
       //State's move is the 'lastMove' whereas the Board's move is the 'nextMove'
       children = children.:+(newState)
     }
