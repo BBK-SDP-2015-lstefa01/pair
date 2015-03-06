@@ -2,7 +2,7 @@ package connect4.scala
 
 //  implicit def convertValue(v: Value): connect4.scala.Player = v.asInstanceOf[connect4.scala.Player]
 
-trait Player {
+sealed trait Player {
   def opponent: Player
 }
 

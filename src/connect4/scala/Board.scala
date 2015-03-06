@@ -8,8 +8,8 @@ object Board {
 
   def apply(b: Board) =
     new Board(b)
-  
-  def apply():Board = new Board()
+
+  def apply(): Board = new Board()
 }
 
 class Board {
@@ -22,9 +22,9 @@ class Board {
 
   def this(b: Board) {
     this()
-    for (r <- 0 until Board.NUM_ROWS; c <- 0 until Board.NUM_COLS) 
+    for (r <- 0 until Board.NUM_ROWS; c <- 0 until Board.NUM_COLS)
       board(r)(c) = b.board(r)(c)
-    
+
   }
 
   def getPlayer(r: Int, c: Int): Player = {
@@ -46,8 +46,6 @@ class Board {
    * @param move
    *
    */
-  //TODO Need to ensure the IllegalArgument exception is handled properly
-
   def makeMove(move: Move): Unit = {
 
     if (getTile(0, move.column) != null) throw new IllegalArgumentException()
@@ -79,9 +77,7 @@ class Board {
 
     for (i <- 0 until Board.NUM_COLS) {
       if (getTile(0, i) != null) {
-        // println("The " + i + "th column is full")
-      }
-      else {
+      } else {
         possMoveArr = possMoveArr.:+(new Move(p, i))
       }
     }
