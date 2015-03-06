@@ -38,23 +38,15 @@ class State(@BeanProperty var player: Player, @BeanProperty var board: Board, @B
    */
   def initializeChildren() {
     val possMoves = board.getPossibleMoves(player)
-//    println("Possible moves length: "+possMoves.length)
+
     for (move <- possMoves) {
       
       val anotherBoard = new Board(board)
       anotherBoard.makeMove(move)
       
-      val newState = new State(player.opponent, anotherBoard, move) //here we are passing the SAME move, but the
-      //State's move is the 'lastMove' whereas the Board's move is the 'nextMove'
+      val newState = new State(player.opponent, anotherBoard, move) 
       children = children.:+(newState)
     }
-   // println("Children length:"+children.length)
-   /* 
-    * TODO this method needs to do something with lastMove --  needs
-    * check! does this.board represent the last move reflect the move just made??
-    * is it a new board each level of tree? Or, is the last move used to from 
-    * leaves to parents in the algo? Parents dont care about last moves, leaves do
-    */
   }
 
   /**
