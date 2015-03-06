@@ -41,8 +41,7 @@ class State(@BeanProperty var player: Player, @BeanProperty var board: Board, @B
 
     for (move <- possMoves) {
       
-      val anotherBoard = new Board(board)
-      anotherBoard.makeMove(move)
+      val anotherBoard = new Board(board,move)
       
       val newState = new State(player.opponent, anotherBoard, move) 
       children = children.:+(newState)
