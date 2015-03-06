@@ -6,6 +6,7 @@ import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.JToolBar;
 import javax.swing.border.BevelBorder;
+
 import java.awt.BorderLayout;
 import java.awt.Dimension;
 import java.awt.GridLayout;
@@ -89,7 +90,7 @@ public class GUI extends JFrame {
      */
 
     public void notifyGameOver(Player winner) {
-        setMsg(winner == null ? "Tie game!" : winner + " won the game!!!");
+        setMsg(winner == null ? "Tie game!" : winner + " won the game!!!"); //throws NoSuchElement Exception due to Player not being of Optional type
     }
 
     /**

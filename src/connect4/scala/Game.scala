@@ -1,13 +1,11 @@
 package connect4.scala
 
-
 /* When testing, you may want to comment out all the above statements
       */
 
 /* -------------------------------------------------------------- */
 
-
-        /* ABOUT TESTING.
+/* ABOUT TESTING.
          * Testing is difficult using a JUnit testing class because it is difficult to
          * get at many of the fields and methods from that class. So you may want to
          * put some testing methods in this class.
@@ -78,7 +76,7 @@ package connect4.scala
          * 
          * */
 
-        /* ********* Put any testing methods that you write here.  *******
+/* ********* Put any testing methods that you write here.  *******
          * *** We will not look at this class anyway ***/
 
 object Game extends App {
@@ -172,8 +170,8 @@ class Game(private var activePlayer: Solver, private var player2: Solver) {
       }
     }
     if (gui == null) {
-        if(winner.isDefined)  println(winner + " won the game!!!")
-        else println("Tie game!")
+      if (winner.isDefined) println(winner + " won the game!!!")
+      else println("Tie game!")
     } else {
       gui.notifyGameOver(winner.get)
     }

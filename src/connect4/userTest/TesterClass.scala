@@ -1,6 +1,9 @@
-package connect4.scala
+package connect4.userTest
 
-object TesterClass extends App {
+import connect4.scala._
+
+
+object TesterClass extends App{
   
   /***
    * Started testing makemove

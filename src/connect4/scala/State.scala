@@ -10,8 +10,7 @@ object State {
 
 }
 
-class State(@BeanProperty var player: Player, @BeanProperty var board: Board, @BeanProperty var lastMove: Move)
-  extends Comparable[Any] {
+class State(@BeanProperty var player: Player, @BeanProperty var board: Board, @BeanProperty var lastMove: Move){
 
   /**
    * All possible game States that can result from the next player's Move.
@@ -29,12 +28,12 @@ class State(@BeanProperty var player: Player, @BeanProperty var board: Board, @B
   var value: Int = 0
 
   /**
-   * Retrieves the possible moves and initializes this State's children.
+   * Retrieves the possible moves and initialises this State's children.
    * The result is that this State's children reflect the possible
    * States that can exist after the next move. Remember, in the
    * children it is the opposite player's turn. This method
-   * initializes only this State's children; it does not recursively
-   * initialize all descendants.
+   * initialises only this State's children; it does not recursively
+   * initialise all descendants.
    */
   def initializeChildren() {
     val possMoves = board.getPossibleMoves(player)
@@ -81,7 +80,7 @@ class State(@BeanProperty var player: Player, @BeanProperty var board: Board, @B
     str = str + ind + "Value: " + value + "\n"
     str = str + board.toString(ind) + "\n"
     if (children != null && children.length > 0) {
-      str = str + ind + "Children at depth " + (d+1) + ":\n" + ind + //plus one is because the children are one below the parent node.
+      str = str + ind + "Children at depth " + (d + 1) + ":\n" + ind + //plus one is because the children are one below the parent node.
         "----------------\n"
       for (s <- children) {
         str = str + s.toStringHelper(d+1, ind + "   ")
@@ -89,8 +88,5 @@ class State(@BeanProperty var player: Player, @BeanProperty var board: Board, @B
     }
     str
   }
-
-  //Need to add Comparable as an interface State implements if we decide to use this
-  override def compareTo(ob: Any): Int = ???
 }
 
