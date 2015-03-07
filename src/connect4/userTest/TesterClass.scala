@@ -9,9 +9,22 @@ object TesterClass extends App{
    * Started testing makemove
    */
   //Tests makeMove method works! Yep!
-  // val b= new Board()
-  // b.makeMove(new Move(RED, 6))
- // println(b)
+  val b = new Board()
+  b.makeMove(new Move(RED, 6))
+  b.makeMove(new Move(YELLOW, 6))
+  b.makeMove(new Move(RED, 6))
+  b.makeMove(new Move(YELLOW, 6))
+  //  b.makeMove(new Move(RED, 6))
+  //  b.makeMove(new Move(YELLOW, 6))
+
+  val moves = b.getPossibleMoves(YELLOW)
+  println(moves.deep.mkString("\n"))
+
+
+  val tempState = new State(RED, b, null)
+  tempState.initializeChildren()
+
+  println(tempState)
 
   // b.makeMove(new Move(YELLOW, 4))
   // b.makeMove(new Move(YELLOW, 4))
@@ -58,9 +71,9 @@ object TesterClass extends App{
   *  checked that even if a player is put into column 3 or 4 (where moves have been made 
   *  already that this is not over-ridden in the GUI.
   */
-  val p1 = new Human(RED)
-  val p2 = new Human(YELLOW)
-  
+  //  val p1 = new Human(RED)
+  //  val p2 = new Human(YELLOW)
+  //
   
 //  println("final board looks like...")
 //  println(b.toString());
@@ -94,7 +107,7 @@ object TesterClass extends App{
   /***
    * Started testing minimax
    */
-val ai = new AI(YELLOW, 2)
+  //val ai = new AI(YELLOW, 2)
 //  tempState.initializeChildren()
 //  for (child <- tempState.children) {
 //    ai.evaluateBoard(child.board)

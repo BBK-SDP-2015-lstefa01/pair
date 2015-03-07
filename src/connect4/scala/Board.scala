@@ -50,18 +50,19 @@ class Board {
 
     if (getTile(0, move.column) != null) throw new IllegalArgumentException()
 
-    if (getTile(Board.NUM_ROWS - 1, move.column) == null) board(Board.NUM_ROWS - 1)(move.column) = move.player
-
+    // If the current position is full, place the Player in the next position
+    var i = 0 //counter to go through rows
+    if (getTile(Board.NUM_ROWS - 1, move.column) == null)
+      board(Board.NUM_ROWS - 1)(move.column) = move.player
     else {
-      var i = 0 //counter to go through rows
       while (getTile(i, move.column) == null && i < Board.NUM_ROWS - 1) {
         i = i + 1
       }
-      //If the current position is full, place the Player in the next position
+
       board(i - 1)(move.column) = move.player
     }
-
   }
+
 
   /**
    * Return an array of all moves that can possibly be made by Player p on
@@ -74,12 +75,9 @@ class Board {
    */
   def getPossibleMoves(p: Player): Array[Move] = {
     var possMoveArr = Array[Move]()
-
     for (i <- 0 until Board.NUM_COLS) {
-      if (getTile(0, i) != null) {
-      } else {
-        possMoveArr = possMoveArr.:+(new Move(p, i))
-      }
+      val tile = Option(getTile(0, i))
+      if (!tile.isDefined) possMoveArr = possMoveArr.:+(new Move(p, i))
     }
     possMoveArr
   }
