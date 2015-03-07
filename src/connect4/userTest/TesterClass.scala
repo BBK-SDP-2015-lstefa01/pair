@@ -17,8 +17,8 @@ object TesterClass extends App{
   //  b.makeMove(new Move(RED, 6))
   //  b.makeMove(new Move(YELLOW, 6))
 
-  val moves = b.getPossibleMoves(YELLOW)
-  println(moves.deep.mkString("\n"))
+//  val moves = b.getPossibleMoves(YELLOW)
+//  println(moves.deep.mkString("\n"))
 
 
   val tempState = new State(RED, b, null)
