@@ -36,7 +36,7 @@ class State(@BeanProperty var player: Player, @BeanProperty var board: Board, @B
    * initialise all descendants.
    */
   def initializeChildren() {
-    val possMoves = board.getPossibleMoves(player)
+//    val possMoves = board.getPossibleMoves(player)
     //
     //    for (move <- possMoves) {
     //
@@ -45,9 +45,8 @@ class State(@BeanProperty var player: Player, @BeanProperty var board: Board, @B
     //      children = children.:+(newState)
     //    }
 
-    possMoves.foreach(move => {
-      val anotherBoard = new Board(board,move)
-      val newState = new State(player.opponent, anotherBoard, move)
+    board.getPossibleMoves (player).foreach(move => {
+      val newState = new State(player.opponent, new Board(board,move), move)
       children = children.:+(newState)
     })
   }
