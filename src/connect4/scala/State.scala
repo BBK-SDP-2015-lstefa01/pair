@@ -46,8 +46,8 @@ class State(@BeanProperty var player: Player, @BeanProperty var board: Board, @B
     //    }
 
     board.getPossibleMoves (player).foreach(move => {
-      val newState = new State(player.opponent, new Board(board,move), move)
-      children = children.:+(newState)
+//      val newState = new State(player.opponent, new Board(board,move), move)
+      children = children.:+(new State(player.opponent, new Board(board,move), move))
     })
   }
 
