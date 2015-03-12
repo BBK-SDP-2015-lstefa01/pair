@@ -66,7 +66,7 @@ class AI(private var player: Player, private var depth: Int) extends Solver {
     minimax(rootState)
     
     rootState.children.foreach {child => {
-      if (child.value == rootState.value){ bestMoves = bestMoves.:+(child.getLastMove())}
+      if (child.value == rootState.value) bestMoves = bestMoves.:+(child.getLastMove)
     }}
 
 //    for (child1 <- rootState.children) {
