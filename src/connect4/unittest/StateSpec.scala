@@ -12,9 +12,13 @@ class StateSpec extends FlatSpec {
 
     val b = new Board(Board(), new Move(RED, 3))
     val testState = new State(YELLOW, b, null)
-    val children = testState.initializeChildren()
+    testState.initializeChildren()
 
-    val testChildMove = new Move(YELLOW, 3)
+    val tempState = new State(RED, b, new Move(RED, 3))
+
+    assert(testState.children(2).equals(tempState))
+
+    assert(testState.children.length == 7)
   }
 
 }
