@@ -19,12 +19,6 @@ object AI {
   //TODO ensure that the winner is a leaf node (i.e., maybe use 'hasConnectFour' on the board object to check for win?
   //FIXME ensure depth > 0 else throw exception or send a note to the GUI
   def createGameTree(s: State, d: Int): Unit = {
-    //    if (d > 0) {
-    //      s.initializeChildren()
-    //      for (child <- s.children) {
-    //        createGameTree(child, d - 1) //  depth of the tree minus 1
-    //      }
-    //    }
 
     if (d > 0) {
       s.initializeChildren()
@@ -68,35 +62,8 @@ class AI(private var player: Player, private var depth: Int) extends Solver {
     rootState.children.foreach {child => {
       if (child.value == rootState.value) bestMoves = bestMoves.:+(child.getLastMove)
     }}
-
-//    for (child1 <- rootState.children) {
-//      if (child1.value == rootState.value) {
-//        childState = child1
-//        bestMoves = bestMoves.:+(childState.getLastMove)
-//      }
-//    }
-//    rootState.writeToFile() //FIXME debugging println, delete when complete
-//    println("Length: " + bestMoves.length)
     bestMoves
   }
-
-  /**
-   * Helper to find the matching value in the children: traverses to the leaf node to return the matching state's value.
-   */
-  //  private def findChild(state:State): State = {
-  //    def helper(state:State): State = {
-  //      if (state.children.length == 0) {
-  //    }
-  //      return state
-  //  }
-  //    for (i<-0 until state.children.length) {
-  //      println("hiya")
-  //      if (state.children(i).value == state.value) {
-  //     findChild(state.children(i))
-  //      }
-  //    }
-  //  findChild(state)
-  //  }
 
   /**
    * connect4.java.State s is a node of a game tree (i.e. the current connect4.java.State of the game).
@@ -110,8 +77,6 @@ class AI(private var player: Player, private var depth: Int) extends Solver {
     if (s.children.length == 0) { s.value = evaluateBoard(s.board) } 
     else {
       s.children.foreach{child => minimax(child)
-//      for (child <- s.children) {
-//        minimax(child)
         if (s.player == player) {s.value = maxValue(s.children)
         } else { s.value = minValue(s.children)
         }
@@ -124,9 +89,6 @@ class AI(private var player: Player, private var depth: Int) extends Solver {
    */
   private def minValue(arr: Array[State]): Int = {
     var values: Array[Int] = Array[Int]()
-//    for (state <- arr) {
-//      values = values.:+(state.value)
-//    }
     arr.foreach { state => values = values.:+(state.value) }
     values.min
   }
@@ -137,10 +99,6 @@ class AI(private var player: Player, private var depth: Int) extends Solver {
   private def maxValue(arr: Array[State]): Int = {
     var values: Array[Int] = Array[Int]()
     arr.foreach { state => values = values.:+(state.value) }
-
-    //      for (state <- arr) {
-    //      values = values.:+(state.value)
-    //    }
     values.max
   }
 
