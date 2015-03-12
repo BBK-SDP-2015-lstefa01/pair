@@ -38,6 +38,8 @@ object BuildUp {
    * Creates a full board
    */
   val fullBoard = new Board()
-  for (r <- 0 until Board.NUM_ROWS; c <- 0 until Board.NUM_COLS){//TODO
+  for (r <- 0 until Board.NUM_ROWS; c <- 0 until Board.NUM_COLS) {
+      
+    
     }
 }
