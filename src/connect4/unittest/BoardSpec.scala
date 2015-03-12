@@ -13,7 +13,7 @@ class BoardSpec extends FlatSpec {
     assert(b1.getTile(0, 3).opponent == YELLOW)
 
   }
-  it should "throw an an IllegalArgumentException if the column is full" in {
+  it should "get an an IllegalArgumentException if the column is full" in {
     val b = new Board()
     b.makeMove(new Move(RED, 0))
     b.makeMove(new Move(YELLOW, 0))
