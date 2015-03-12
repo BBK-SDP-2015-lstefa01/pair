@@ -1,150 +1,7418 @@
-YELLOW to play
-Value: 70000
-|Y|R| |R|R|Y| |
-|Y|Y| |R|R|R| |
-|R|Y| |Y|Y|R| |
-|Y|R| |R|R|R| |
-|Y|R| |Y|Y|Y| |
-|Y|R|Y|Y|R|Y|R|
+RED to play
+Value: -16
+| | | | | | | |
+| | | | | | | |
+| | | | | | | |
+| | | | | | | |
+| | | | | | | |
+| | |Y|Y|R| |R|
 
 Children at depth 1:
 ----------------
-   RED to play
-   Value: 70000
-   |Y|R| |R|R|Y| |
-   |Y|Y| |R|R|R| |
-   |R|Y| |Y|Y|R| |
-   |Y|R| |R|R|R| |
-   |Y|R|Y|Y|Y|Y| |
-   |Y|R|Y|Y|R|Y|R|
+   YELLOW to play
+   Value: -10
+   | | | | | | | |
+   | | | | | | | |
+   | | | | | | | |
+   | | | | | | | |
+   | | | | | | | |
+   |R| |Y|Y|R| |R|
 
    Children at depth 2:
    ----------------
-      YELLOW to play
-      Value: 70000
-      |Y|R| |R|R|Y| |
-      |Y|Y| |R|R|R| |
-      |R|Y| |Y|Y|R| |
-      |Y|R|R|R|R|R| |
-      |Y|R|Y|Y|Y|Y| |
-      |Y|R|Y|Y|R|Y|R|
+      RED to play
+      Value: -16
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      |Y| | | | | | |
+      |R| |Y|Y|R| |R|
 
       Children at depth 3:
       ----------------
-         RED to play
-         Value: 70000
-         |Y|R| |R|R|Y| |
-         |Y|Y| |R|R|R| |
-         |R|Y|Y|Y|Y|R| |
-         |Y|R|R|R|R|R| |
-         |Y|R|Y|Y|Y|Y| |
-         |Y|R|Y|Y|R|Y|R|
+         YELLOW to play
+         Value: -9
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         |R| | | | | | |
+         |Y| | | | | | |
+         |R| |Y|Y|R| |R|
 
-         RED to play
-         Value: -70000
-         |Y|R| |R|R|Y| |
-         |Y|Y| |R|R|R| |
-         |R|Y| |Y|Y|R| |
-         |Y|R|R|R|R|R| |
-         |Y|R|Y|Y|Y|Y|Y|
-         |Y|R|Y|Y|R|Y|R|
+         YELLOW to play
+         Value: -11
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         |Y| | | | | | |
+         |R|R|Y|Y|R| |R|
 
-      YELLOW to play
-      Value: 70000
-      |Y|R| |R|R|Y| |
-      |Y|Y| |R|R|R| |
-      |R|Y| |Y|Y|R| |
-      |Y|R| |R|R|R| |
-      |Y|R|Y|Y|Y|Y|R|
-      |Y|R|Y|Y|R|Y|R|
+         YELLOW to play
+         Value: -14
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         |Y| |R| | | | |
+         |R| |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -16
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         |Y| | |R| | | |
+         |R| |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -16
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         |Y| | | |R| | |
+         |R| |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -15
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         |Y| | | | | | |
+         |R| |Y|Y|R|R|R|
+
+         YELLOW to play
+         Value: -16
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         |Y| | | | | |R|
+         |R| |Y|Y|R| |R|
+
+      RED to play
+      Value: -14
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      |R|Y|Y|Y|R| |R|
 
       Children at depth 3:
       ----------------
-         RED to play
-         Value: 70000
-         |Y|R| |R|R|Y| |
-         |Y|Y| |R|R|R| |
-         |R|Y| |Y|Y|R| |
-         |Y|R|Y|R|R|R| |
-         |Y|R|Y|Y|Y|Y|R|
-         |Y|R|Y|Y|R|Y|R|
+         YELLOW to play
+         Value: -7
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         |R| | | | | | |
+         |R|Y|Y|Y|R| |R|
 
-         RED to play
-         Value: 70000
-         |Y|R| |R|R|Y| |
-         |Y|Y| |R|R|R| |
-         |R|Y| |Y|Y|R| |
-         |Y|R| |R|R|R|Y|
-         |Y|R|Y|Y|Y|Y|R|
-         |Y|R|Y|Y|R|Y|R|
+         YELLOW to play
+         Value: -10
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | |R| | | | | |
+         |R|Y|Y|Y|R| |R|
 
-   RED to play
-   Value: -70000
-   |Y|R| |R|R|Y| |
-   |Y|Y| |R|R|R| |
-   |R|Y| |Y|Y|R| |
-   |Y|R| |R|R|R| |
-   |Y|R| |Y|Y|Y|Y|
-   |Y|R|Y|Y|R|Y|R|
+         YELLOW to play
+         Value: -12
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |R| | | | |
+         |R|Y|Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -14
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | |R| | | |
+         |R|Y|Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -14
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | |R| | |
+         |R|Y|Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -13
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         |R|Y|Y|Y|R|R|R|
+
+         YELLOW to play
+         Value: -14
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | |R|
+         |R|Y|Y|Y|R| |R|
+
+      RED to play
+      Value: -11
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      | | |Y| | | | |
+      |R| |Y|Y|R| |R|
+
+      Children at depth 3:
+      ----------------
+         YELLOW to play
+         Value: -4
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         |R| |Y| | | | |
+         |R| |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -6
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |Y| | | | |
+         |R|R|Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -10
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |R| | | | |
+         | | |Y| | | | |
+         |R| |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -11
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |Y|R| | | |
+         |R| |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -11
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |Y| |R| | |
+         |R| |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -10
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |Y| | | | |
+         |R| |Y|Y|R|R|R|
+
+         YELLOW to play
+         Value: -11
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |Y| | | |R|
+         |R| |Y|Y|R| |R|
+
+      RED to play
+      Value: -10
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      | | | |Y| | | |
+      |R| |Y|Y|R| |R|
+
+      Children at depth 3:
+      ----------------
+         YELLOW to play
+         Value: -2
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         |R| | |Y| | | |
+         |R| |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -4
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | |Y| | | |
+         |R|R|Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -7
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |R|Y| | | |
+         |R| |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -10
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | |R| | | |
+         | | | |Y| | | |
+         |R| |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -9
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | |Y|R| | |
+         |R| |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -8
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | |Y| | | |
+         |R| |Y|Y|R|R|R|
+
+         YELLOW to play
+         Value: -9
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | |Y| | |R|
+         |R| |Y|Y|R| |R|
+
+      RED to play
+      Value: -10
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      | | | | |Y| | |
+      |R| |Y|Y|R| |R|
+
+      Children at depth 3:
+      ----------------
+         YELLOW to play
+         Value: -2
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         |R| | | |Y| | |
+         |R| |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -4
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | |Y| | |
+         |R|R|Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -7
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |R| |Y| | |
+         |R| |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -9
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | |R|Y| | |
+         |R| |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -10
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | |R| | |
+         | | | | |Y| | |
+         |R| |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -8
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | |Y| | |
+         |R| |Y|Y|R|R|R|
+
+         YELLOW to play
+         Value: -9
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | |Y| |R|
+         |R| |Y|Y|R| |R|
+
+      RED to play
+      Value: -10
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      |R| |Y|Y|R|Y|R|
+
+      Children at depth 3:
+      ----------------
+         YELLOW to play
+         Value: -3
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         |R| | | | | | |
+         |R| |Y|Y|R|Y|R|
+
+         YELLOW to play
+         Value: -5
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         |R|R|Y|Y|R|Y|R|
+
+         YELLOW to play
+         Value: -8
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |R| | | | |
+         |R| |Y|Y|R|Y|R|
+
+         YELLOW to play
+         Value: -10
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | |R| | | |
+         |R| |Y|Y|R|Y|R|
+
+         YELLOW to play
+         Value: -10
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | |R| | |
+         |R| |Y|Y|R|Y|R|
+
+         YELLOW to play
+         Value: -10
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | |R| |
+         |R| |Y|Y|R|Y|R|
+
+         YELLOW to play
+         Value: -10
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | |R|
+         |R| |Y|Y|R|Y|R|
+
+      RED to play
+      Value: -10
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | |Y|
+      |R| |Y|Y|R| |R|
+
+      Children at depth 3:
+      ----------------
+         YELLOW to play
+         Value: -2
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         |R| | | | | |Y|
+         |R| |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -4
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | |Y|
+         |R|R|Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -7
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |R| | | |Y|
+         |R| |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -9
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | |R| | |Y|
+         |R| |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -9
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | |R| |Y|
+         |R| |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -8
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | |Y|
+         |R| |Y|Y|R|R|R|
+
+         YELLOW to play
+         Value: -10
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | |R|
+         | | | | | | |Y|
+         |R| |Y|Y|R| |R|
+
+   YELLOW to play
+   Value: -12
+   | | | | | | | |
+   | | | | | | | |
+   | | | | | | | |
+   | | | | | | | |
+   | | | | | | | |
+   | |R|Y|Y|R| |R|
 
    Children at depth 2:
    ----------------
-      YELLOW to play
-      Value: 70000
-      |Y|R| |R|R|Y| |
-      |Y|Y| |R|R|R| |
-      |R|Y| |Y|Y|R| |
-      |Y|R| |R|R|R| |
-      |Y|R|R|Y|Y|Y|Y|
-      |Y|R|Y|Y|R|Y|R|
+      RED to play
+      Value: -18
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      |Y|R|Y|Y|R| |R|
 
       Children at depth 3:
       ----------------
-         RED to play
-         Value: 70000
-         |Y|R| |R|R|Y| |
-         |Y|Y| |R|R|R| |
-         |R|Y| |Y|Y|R| |
-         |Y|R|Y|R|R|R| |
-         |Y|R|R|Y|Y|Y|Y|
-         |Y|R|Y|Y|R|Y|R|
+         YELLOW to play
+         Value: -11
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         |R| | | | | | |
+         |Y|R|Y|Y|R| |R|
 
-         RED to play
-         Value: 70000
-         |Y|R| |R|R|Y| |
-         |Y|Y| |R|R|R| |
-         |R|Y| |Y|Y|R| |
-         |Y|R| |R|R|R|Y|
-         |Y|R|R|Y|Y|Y|Y|
-         |Y|R|Y|Y|R|Y|R|
+         YELLOW to play
+         Value: -14
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | |R| | | | | |
+         |Y|R|Y|Y|R| |R|
 
-      YELLOW to play
-      Value: -70000
-      |Y|R| |R|R|Y| |
-      |Y|Y| |R|R|R| |
-      |R|Y| |Y|Y|R| |
-      |Y|R| |R|R|R|R|
-      |Y|R| |Y|Y|Y|Y|
-      |Y|R|Y|Y|R|Y|R|
+         YELLOW to play
+         Value: -16
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |R| | | | |
+         |Y|R|Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -18
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | |R| | | |
+         |Y|R|Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -18
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | |R| | |
+         |Y|R|Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -17
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         |Y|R|Y|Y|R|R|R|
+
+         YELLOW to play
+         Value: -18
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | |R|
+         |Y|R|Y|Y|R| |R|
+
+      RED to play
+      Value: -15
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      | |Y| | | | | |
+      | |R|Y|Y|R| |R|
 
       Children at depth 3:
       ----------------
-         RED to play
-         Value: -70000
-         |Y|R| |R|R|Y| |
-         |Y|Y| |R|R|R| |
-         |R|Y| |Y|Y|R| |
-         |Y|R| |R|R|R|R|
-         |Y|R|Y|Y|Y|Y|Y|
-         |Y|R|Y|Y|R|Y|R|
+         YELLOW to play
+         Value: -8
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | |Y| | | | | |
+         |R|R|Y|Y|R| |R|
 
-         RED to play
-         Value: -70000
-         |Y|R| |R|R|Y| |
-         |Y|Y| |R|R|R| |
-         |R|Y| |Y|Y|R|Y|
-         |Y|R| |R|R|R|R|
-         |Y|R| |Y|Y|Y|Y|
-         |Y|R|Y|Y|R|Y|R|
+         YELLOW to play
+         Value: -11
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | |R| | | | | |
+         | |Y| | | | | |
+         | |R|Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -13
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | |Y|R| | | | |
+         | |R|Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -15
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | |Y| |R| | | |
+         | |R|Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -15
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | |Y| | |R| | |
+         | |R|Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -14
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | |Y| | | | | |
+         | |R|Y|Y|R|R|R|
+
+         YELLOW to play
+         Value: -15
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | |Y| | | | |R|
+         | |R|Y|Y|R| |R|
+
+      RED to play
+      Value: -13
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      | | |Y| | | | |
+      | |R|Y|Y|R| |R|
+
+      Children at depth 3:
+      ----------------
+         YELLOW to play
+         Value: -6
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |Y| | | | |
+         |R|R|Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -9
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | |R|Y| | | | |
+         | |R|Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -12
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |R| | | | |
+         | | |Y| | | | |
+         | |R|Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -13
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |Y|R| | | |
+         | |R|Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -13
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |Y| |R| | |
+         | |R|Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -12
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |Y| | | | |
+         | |R|Y|Y|R|R|R|
+
+         YELLOW to play
+         Value: -13
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |Y| | | |R|
+         | |R|Y|Y|R| |R|
+
+      RED to play
+      Value: -12
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      | | | |Y| | | |
+      | |R|Y|Y|R| |R|
+
+      Children at depth 3:
+      ----------------
+         YELLOW to play
+         Value: -4
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | |Y| | | |
+         |R|R|Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -7
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | |R| |Y| | | |
+         | |R|Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -9
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |R|Y| | | |
+         | |R|Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -12
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | |R| | | |
+         | | | |Y| | | |
+         | |R|Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -11
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | |Y|R| | |
+         | |R|Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -10
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | |Y| | | |
+         | |R|Y|Y|R|R|R|
+
+         YELLOW to play
+         Value: -11
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | |Y| | |R|
+         | |R|Y|Y|R| |R|
+
+      RED to play
+      Value: -12
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      | | | | |Y| | |
+      | |R|Y|Y|R| |R|
+
+      Children at depth 3:
+      ----------------
+         YELLOW to play
+         Value: -4
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | |Y| | |
+         |R|R|Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -7
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | |R| | |Y| | |
+         | |R|Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -9
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |R| |Y| | |
+         | |R|Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -11
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | |R|Y| | |
+         | |R|Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -12
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | |R| | |
+         | | | | |Y| | |
+         | |R|Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -10
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | |Y| | |
+         | |R|Y|Y|R|R|R|
+
+         YELLOW to play
+         Value: -11
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | |Y| |R|
+         | |R|Y|Y|R| |R|
+
+      RED to play
+      Value: -12
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      | |R|Y|Y|R|Y|R|
+
+      Children at depth 3:
+      ----------------
+         YELLOW to play
+         Value: -5
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         |R|R|Y|Y|R|Y|R|
+
+         YELLOW to play
+         Value: -8
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | |R| | | | | |
+         | |R|Y|Y|R|Y|R|
+
+         YELLOW to play
+         Value: -10
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |R| | | | |
+         | |R|Y|Y|R|Y|R|
+
+         YELLOW to play
+         Value: -12
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | |R| | | |
+         | |R|Y|Y|R|Y|R|
+
+         YELLOW to play
+         Value: -12
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | |R| | |
+         | |R|Y|Y|R|Y|R|
+
+         YELLOW to play
+         Value: -12
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | |R| |
+         | |R|Y|Y|R|Y|R|
+
+         YELLOW to play
+         Value: -12
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | |R|
+         | |R|Y|Y|R|Y|R|
+
+      RED to play
+      Value: -12
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | |Y|
+      | |R|Y|Y|R| |R|
+
+      Children at depth 3:
+      ----------------
+         YELLOW to play
+         Value: -4
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | |Y|
+         |R|R|Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -7
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | |R| | | | |Y|
+         | |R|Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -9
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |R| | | |Y|
+         | |R|Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -11
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | |R| | |Y|
+         | |R|Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -11
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | |R| |Y|
+         | |R|Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -10
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | |Y|
+         | |R|Y|Y|R|R|R|
+
+         YELLOW to play
+         Value: -12
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | |R|
+         | | | | | | |Y|
+         | |R|Y|Y|R| |R|
+
+   YELLOW to play
+   Value: -15
+   | | | | | | | |
+   | | | | | | | |
+   | | | | | | | |
+   | | | | | | | |
+   | | |R| | | | |
+   | | |Y|Y|R| |R|
+
+   Children at depth 2:
+   ----------------
+      RED to play
+      Value: -21
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      | | |R| | | | |
+      |Y| |Y|Y|R| |R|
+
+      Children at depth 3:
+      ----------------
+         YELLOW to play
+         Value: -14
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         |R| |R| | | | |
+         |Y| |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -16
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |R| | | | |
+         |Y|R|Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -20
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |R| | | | |
+         | | |R| | | | |
+         |Y| |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -21
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |R|R| | | |
+         |Y| |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -21
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |R| |R| | |
+         |Y| |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -20
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |R| | | | |
+         |Y| |Y|Y|R|R|R|
+
+         YELLOW to play
+         Value: -21
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |R| | | |R|
+         |Y| |Y|Y|R| |R|
+
+      RED to play
+      Value: -19
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      | | |R| | | | |
+      | |Y|Y|Y|R| |R|
+
+      Children at depth 3:
+      ----------------
+         YELLOW to play
+         Value: -12
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |R| | | | |
+         |R|Y|Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -15
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | |R|R| | | | |
+         | |Y|Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -18
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |R| | | | |
+         | | |R| | | | |
+         | |Y|Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -19
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |R|R| | | |
+         | |Y|Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -19
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |R| |R| | |
+         | |Y|Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -18
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |R| | | | |
+         | |Y|Y|Y|R|R|R|
+
+         YELLOW to play
+         Value: -19
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |R| | | |R|
+         | |Y|Y|Y|R| |R|
+
+      RED to play
+      Value: -15
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      | | |Y| | | | |
+      | | |R| | | | |
+      | | |Y|Y|R| |R|
+
+      Children at depth 3:
+      ----------------
+         YELLOW to play
+         Value: -8
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |Y| | | | |
+         | | |R| | | | |
+         |R| |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -10
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |Y| | | | |
+         | | |R| | | | |
+         | |R|Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -13
+         | | | | | | | |
+         | | | | | | | |
+         | | |R| | | | |
+         | | |Y| | | | |
+         | | |R| | | | |
+         | | |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -15
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |Y| | | | |
+         | | |R|R| | | |
+         | | |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -15
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |Y| | | | |
+         | | |R| |R| | |
+         | | |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -14
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |Y| | | | |
+         | | |R| | | | |
+         | | |Y|Y|R|R|R|
+
+         YELLOW to play
+         Value: -15
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |Y| | | | |
+         | | |R| | | |R|
+         | | |Y|Y|R| |R|
+
+      RED to play
+      Value: -15
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      | | |R|Y| | | |
+      | | |Y|Y|R| |R|
+
+      Children at depth 3:
+      ----------------
+         YELLOW to play
+         Value: -7
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |R|Y| | | |
+         |R| |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -9
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |R|Y| | | |
+         | |R|Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -13
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |R| | | | |
+         | | |R|Y| | | |
+         | | |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -15
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | |R| | | |
+         | | |R|Y| | | |
+         | | |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -14
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |R|Y|R| | |
+         | | |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -13
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |R|Y| | | |
+         | | |Y|Y|R|R|R|
+
+         YELLOW to play
+         Value: -14
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |R|Y| | |R|
+         | | |Y|Y|R| |R|
+
+      RED to play
+      Value: -15
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      | | |R| |Y| | |
+      | | |Y|Y|R| |R|
+
+      Children at depth 3:
+      ----------------
+         YELLOW to play
+         Value: -7
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |R| |Y| | |
+         |R| |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -9
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |R| |Y| | |
+         | |R|Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -13
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |R| | | | |
+         | | |R| |Y| | |
+         | | |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -14
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |R|R|Y| | |
+         | | |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -15
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | |R| | |
+         | | |R| |Y| | |
+         | | |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -13
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |R| |Y| | |
+         | | |Y|Y|R|R|R|
+
+         YELLOW to play
+         Value: -14
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |R| |Y| |R|
+         | | |Y|Y|R| |R|
+
+      RED to play
+      Value: -15
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      | | |R| | | | |
+      | | |Y|Y|R|Y|R|
+
+      Children at depth 3:
+      ----------------
+         YELLOW to play
+         Value: -8
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |R| | | | |
+         |R| |Y|Y|R|Y|R|
+
+         YELLOW to play
+         Value: -10
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |R| | | | |
+         | |R|Y|Y|R|Y|R|
+
+         YELLOW to play
+         Value: -14
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |R| | | | |
+         | | |R| | | | |
+         | | |Y|Y|R|Y|R|
+
+         YELLOW to play
+         Value: -15
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |R|R| | | |
+         | | |Y|Y|R|Y|R|
+
+         YELLOW to play
+         Value: -15
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |R| |R| | |
+         | | |Y|Y|R|Y|R|
+
+         YELLOW to play
+         Value: -15
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |R| | |R| |
+         | | |Y|Y|R|Y|R|
+
+         YELLOW to play
+         Value: -15
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |R| | | |R|
+         | | |Y|Y|R|Y|R|
+
+      RED to play
+      Value: -15
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      | | |R| | | |Y|
+      | | |Y|Y|R| |R|
+
+      Children at depth 3:
+      ----------------
+         YELLOW to play
+         Value: -7
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |R| | | |Y|
+         |R| |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -9
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |R| | | |Y|
+         | |R|Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -13
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |R| | | | |
+         | | |R| | | |Y|
+         | | |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -14
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |R|R| | |Y|
+         | | |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -14
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |R| |R| |Y|
+         | | |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -13
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |R| | | |Y|
+         | | |Y|Y|R|R|R|
+
+         YELLOW to play
+         Value: -15
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | |R|
+         | | |R| | | |Y|
+         | | |Y|Y|R| |R|
+
+   YELLOW to play
+   Value: -15
+   | | | | | | | |
+   | | | | | | | |
+   | | | | | | | |
+   | | | | | | | |
+   | | | |R| | | |
+   | | |Y|Y|R| |R|
+
+   Children at depth 2:
+   ----------------
+      RED to play
+      Value: -24
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      | | | |R| | | |
+      |Y| |Y|Y|R| |R|
+
+      Children at depth 3:
+      ----------------
+         YELLOW to play
+         Value: -16
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         |R| | |R| | | |
+         |Y| |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -18
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | |R| | | |
+         |Y|R|Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -21
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |R|R| | | |
+         |Y| |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -24
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | |R| | | |
+         | | | |R| | | |
+         |Y| |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -23
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | |R|R| | |
+         |Y| |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -22
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | |R| | | |
+         |Y| |Y|Y|R|R|R|
+
+         YELLOW to play
+         Value: -23
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | |R| | |R|
+         |Y| |Y|Y|R| |R|
+
+      RED to play
+      Value: -22
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      | | | |R| | | |
+      | |Y|Y|Y|R| |R|
+
+      Children at depth 3:
+      ----------------
+         YELLOW to play
+         Value: -14
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | |R| | | |
+         |R|Y|Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -17
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | |R| |R| | | |
+         | |Y|Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -19
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |R|R| | | |
+         | |Y|Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -22
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | |R| | | |
+         | | | |R| | | |
+         | |Y|Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -21
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | |R|R| | |
+         | |Y|Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -20
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | |R| | | |
+         | |Y|Y|Y|R|R|R|
+
+         YELLOW to play
+         Value: -21
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | |R| | |R|
+         | |Y|Y|Y|R| |R|
+
+      RED to play
+      Value: -19
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      | | |Y|R| | | |
+      | | |Y|Y|R| |R|
+
+      Children at depth 3:
+      ----------------
+         YELLOW to play
+         Value: -11
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |Y|R| | | |
+         |R| |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -13
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |Y|R| | | |
+         | |R|Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -17
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |R| | | | |
+         | | |Y|R| | | |
+         | | |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -19
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | |R| | | |
+         | | |Y|R| | | |
+         | | |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -18
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |Y|R|R| | |
+         | | |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -17
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |Y|R| | | |
+         | | |Y|Y|R|R|R|
+
+         YELLOW to play
+         Value: -18
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |Y|R| | |R|
+         | | |Y|Y|R| |R|
+
+      RED to play
+      Value: -15
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      | | | |Y| | | |
+      | | | |R| | | |
+      | | |Y|Y|R| |R|
+
+      Children at depth 3:
+      ----------------
+         YELLOW to play
+         Value: -8
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | |Y| | | |
+         | | | |R| | | |
+         |R| |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -10
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | |Y| | | |
+         | | | |R| | | |
+         | |R|Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -13
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | |Y| | | |
+         | | |R|R| | | |
+         | | |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -15
+         | | | | | | | |
+         | | | | | | | |
+         | | | |R| | | |
+         | | | |Y| | | |
+         | | | |R| | | |
+         | | |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -15
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | |Y| | | |
+         | | | |R|R| | |
+         | | |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -14
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | |Y| | | |
+         | | | |R| | | |
+         | | |Y|Y|R|R|R|
+
+         YELLOW to play
+         Value: -15
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | |Y| | | |
+         | | | |R| | |R|
+         | | |Y|Y|R| |R|
+
+      RED to play
+      Value: -17
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      | | | |R|Y| | |
+      | | |Y|Y|R| |R|
+
+      Children at depth 3:
+      ----------------
+         YELLOW to play
+         Value: -9
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | |R|Y| | |
+         |R| |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -11
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | |R|Y| | |
+         | |R|Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -14
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |R|R|Y| | |
+         | | |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -17
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | |R| | | |
+         | | | |R|Y| | |
+         | | |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -17
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | |R| | |
+         | | | |R|Y| | |
+         | | |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -15
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | |R|Y| | |
+         | | |Y|Y|R|R|R|
+
+         YELLOW to play
+         Value: -16
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | |R|Y| |R|
+         | | |Y|Y|R| |R|
+
+      RED to play
+      Value: -18
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      | | | |R| | | |
+      | | |Y|Y|R|Y|R|
+
+      Children at depth 3:
+      ----------------
+         YELLOW to play
+         Value: -10
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | |R| | | |
+         |R| |Y|Y|R|Y|R|
+
+         YELLOW to play
+         Value: -12
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | |R| | | |
+         | |R|Y|Y|R|Y|R|
+
+         YELLOW to play
+         Value: -15
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |R|R| | | |
+         | | |Y|Y|R|Y|R|
+
+         YELLOW to play
+         Value: -18
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | |R| | | |
+         | | | |R| | | |
+         | | |Y|Y|R|Y|R|
+
+         YELLOW to play
+         Value: -17
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | |R|R| | |
+         | | |Y|Y|R|Y|R|
+
+         YELLOW to play
+         Value: -17
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | |R| |R| |
+         | | |Y|Y|R|Y|R|
+
+         YELLOW to play
+         Value: -17
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | |R| | |R|
+         | | |Y|Y|R|Y|R|
+
+      RED to play
+      Value: -17
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      | | | |R| | |Y|
+      | | |Y|Y|R| |R|
+
+      Children at depth 3:
+      ----------------
+         YELLOW to play
+         Value: -9
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | |R| | |Y|
+         |R| |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -11
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | |R| | |Y|
+         | |R|Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -14
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |R|R| | |Y|
+         | | |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -17
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | |R| | | |
+         | | | |R| | |Y|
+         | | |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -16
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | |R|R| |Y|
+         | | |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -15
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | |R| | |Y|
+         | | |Y|Y|R|R|R|
+
+         YELLOW to play
+         Value: -17
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | |R|
+         | | | |R| | |Y|
+         | | |Y|Y|R| |R|
+
+   YELLOW to play
+   Value: -15
+   | | | | | | | |
+   | | | | | | | |
+   | | | | | | | |
+   | | | | | | | |
+   | | | | |R| | |
+   | | |Y|Y|R| |R|
+
+   Children at depth 2:
+   ----------------
+      RED to play
+      Value: -24
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      | | | | |R| | |
+      |Y| |Y|Y|R| |R|
+
+      Children at depth 3:
+      ----------------
+         YELLOW to play
+         Value: -16
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         |R| | | |R| | |
+         |Y| |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -18
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | |R| | |
+         |Y|R|Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -21
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |R| |R| | |
+         |Y| |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -23
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | |R|R| | |
+         |Y| |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -24
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | |R| | |
+         | | | | |R| | |
+         |Y| |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -22
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | |R| | |
+         |Y| |Y|Y|R|R|R|
+
+         YELLOW to play
+         Value: -23
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | |R| |R|
+         |Y| |Y|Y|R| |R|
+
+      RED to play
+      Value: -22
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      | | | | |R| | |
+      | |Y|Y|Y|R| |R|
+
+      Children at depth 3:
+      ----------------
+         YELLOW to play
+         Value: -14
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | |R| | |
+         |R|Y|Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -17
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | |R| | |R| | |
+         | |Y|Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -19
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |R| |R| | |
+         | |Y|Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -21
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | |R|R| | |
+         | |Y|Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -22
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | |R| | |
+         | | | | |R| | |
+         | |Y|Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -20
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | |R| | |
+         | |Y|Y|Y|R|R|R|
+
+         YELLOW to play
+         Value: -21
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | |R| |R|
+         | |Y|Y|Y|R| |R|
+
+      RED to play
+      Value: -19
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      | | |Y| |R| | |
+      | | |Y|Y|R| |R|
+
+      Children at depth 3:
+      ----------------
+         YELLOW to play
+         Value: -11
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |Y| |R| | |
+         |R| |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -13
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |Y| |R| | |
+         | |R|Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -17
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |R| | | | |
+         | | |Y| |R| | |
+         | | |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -18
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |Y|R|R| | |
+         | | |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -19
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | |R| | |
+         | | |Y| |R| | |
+         | | |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -17
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |Y| |R| | |
+         | | |Y|Y|R|R|R|
+
+         YELLOW to play
+         Value: -18
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |Y| |R| |R|
+         | | |Y|Y|R| |R|
+
+      RED to play
+      Value: -17
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      | | | |Y|R| | |
+      | | |Y|Y|R| |R|
+
+      Children at depth 3:
+      ----------------
+         YELLOW to play
+         Value: -9
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | |Y|R| | |
+         |R| |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -11
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | |Y|R| | |
+         | |R|Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -14
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |R|Y|R| | |
+         | | |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -17
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | |R| | | |
+         | | | |Y|R| | |
+         | | |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -17
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | |R| | |
+         | | | |Y|R| | |
+         | | |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -15
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | |Y|R| | |
+         | | |Y|Y|R|R|R|
+
+         YELLOW to play
+         Value: -16
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | |Y|R| |R|
+         | | |Y|Y|R| |R|
+
+      RED to play
+      Value: -15
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      | | | | |Y| | |
+      | | | | |R| | |
+      | | |Y|Y|R| |R|
+
+      Children at depth 3:
+      ----------------
+         YELLOW to play
+         Value: -8
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | |Y| | |
+         | | | | |R| | |
+         |R| |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -10
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | |Y| | |
+         | | | | |R| | |
+         | |R|Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -13
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | |Y| | |
+         | | |R| |R| | |
+         | | |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -15
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | |Y| | |
+         | | | |R|R| | |
+         | | |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -15
+         | | | | | | | |
+         | | | | | | | |
+         | | | | |R| | |
+         | | | | |Y| | |
+         | | | | |R| | |
+         | | |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -14
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | |Y| | |
+         | | | | |R| | |
+         | | |Y|Y|R|R|R|
+
+         YELLOW to play
+         Value: -15
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | |Y| | |
+         | | | | |R| |R|
+         | | |Y|Y|R| |R|
+
+      RED to play
+      Value: -18
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      | | | | |R| | |
+      | | |Y|Y|R|Y|R|
+
+      Children at depth 3:
+      ----------------
+         YELLOW to play
+         Value: -10
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | |R| | |
+         |R| |Y|Y|R|Y|R|
+
+         YELLOW to play
+         Value: -12
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | |R| | |
+         | |R|Y|Y|R|Y|R|
+
+         YELLOW to play
+         Value: -15
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |R| |R| | |
+         | | |Y|Y|R|Y|R|
+
+         YELLOW to play
+         Value: -17
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | |R|R| | |
+         | | |Y|Y|R|Y|R|
+
+         YELLOW to play
+         Value: -18
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | |R| | |
+         | | | | |R| | |
+         | | |Y|Y|R|Y|R|
+
+         YELLOW to play
+         Value: -17
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | |R|R| |
+         | | |Y|Y|R|Y|R|
+
+         YELLOW to play
+         Value: -17
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | |R| |R|
+         | | |Y|Y|R|Y|R|
+
+      RED to play
+      Value: -17
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      | | | | |R| |Y|
+      | | |Y|Y|R| |R|
+
+      Children at depth 3:
+      ----------------
+         YELLOW to play
+         Value: -9
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | |R| |Y|
+         |R| |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -11
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | |R| |Y|
+         | |R|Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -14
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |R| |R| |Y|
+         | | |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -16
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | |R|R| |Y|
+         | | |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -17
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | |R| | |
+         | | | | |R| |Y|
+         | | |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -15
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | |R| |Y|
+         | | |Y|Y|R|R|R|
+
+         YELLOW to play
+         Value: -17
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | |R|
+         | | | | |R| |Y|
+         | | |Y|Y|R| |R|
+
+   YELLOW to play
+   Value: -16
+   | | | | | | | |
+   | | | | | | | |
+   | | | | | | | |
+   | | | | | | | |
+   | | | | | | | |
+   | | |Y|Y|R|R|R|
+
+   Children at depth 2:
+   ----------------
+      RED to play
+      Value: -22
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      |Y| |Y|Y|R|R|R|
+
+      Children at depth 3:
+      ----------------
+         YELLOW to play
+         Value: -15
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         |R| | | | | | |
+         |Y| |Y|Y|R|R|R|
+
+         YELLOW to play
+         Value: -17
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         |Y|R|Y|Y|R|R|R|
+
+         YELLOW to play
+         Value: -20
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |R| | | | |
+         |Y| |Y|Y|R|R|R|
+
+         YELLOW to play
+         Value: -22
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | |R| | | |
+         |Y| |Y|Y|R|R|R|
+
+         YELLOW to play
+         Value: -22
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | |R| | |
+         |Y| |Y|Y|R|R|R|
+
+         YELLOW to play
+         Value: -22
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | |R| |
+         |Y| |Y|Y|R|R|R|
+
+         YELLOW to play
+         Value: -22
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | |R|
+         |Y| |Y|Y|R|R|R|
+
+      RED to play
+      Value: -20
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      | |Y|Y|Y|R|R|R|
+
+      Children at depth 3:
+      ----------------
+         YELLOW to play
+         Value: -13
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         |R|Y|Y|Y|R|R|R|
+
+         YELLOW to play
+         Value: -16
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | |R| | | | | |
+         | |Y|Y|Y|R|R|R|
+
+         YELLOW to play
+         Value: -18
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |R| | | | |
+         | |Y|Y|Y|R|R|R|
+
+         YELLOW to play
+         Value: -20
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | |R| | | |
+         | |Y|Y|Y|R|R|R|
+
+         YELLOW to play
+         Value: -20
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | |R| | |
+         | |Y|Y|Y|R|R|R|
+
+         YELLOW to play
+         Value: -20
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | |R| |
+         | |Y|Y|Y|R|R|R|
+
+         YELLOW to play
+         Value: -20
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | |R|
+         | |Y|Y|Y|R|R|R|
+
+      RED to play
+      Value: -17
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      | | |Y| | | | |
+      | | |Y|Y|R|R|R|
+
+      Children at depth 3:
+      ----------------
+         YELLOW to play
+         Value: -10
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |Y| | | | |
+         |R| |Y|Y|R|R|R|
+
+         YELLOW to play
+         Value: -12
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |Y| | | | |
+         | |R|Y|Y|R|R|R|
+
+         YELLOW to play
+         Value: -16
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |R| | | | |
+         | | |Y| | | | |
+         | | |Y|Y|R|R|R|
+
+         YELLOW to play
+         Value: -17
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |Y|R| | | |
+         | | |Y|Y|R|R|R|
+
+         YELLOW to play
+         Value: -17
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |Y| |R| | |
+         | | |Y|Y|R|R|R|
+
+         YELLOW to play
+         Value: -17
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |Y| | |R| |
+         | | |Y|Y|R|R|R|
+
+         YELLOW to play
+         Value: -17
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |Y| | | |R|
+         | | |Y|Y|R|R|R|
+
+      RED to play
+      Value: -16
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      | | | |Y| | | |
+      | | |Y|Y|R|R|R|
+
+      Children at depth 3:
+      ----------------
+         YELLOW to play
+         Value: -8
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | |Y| | | |
+         |R| |Y|Y|R|R|R|
+
+         YELLOW to play
+         Value: -10
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | |Y| | | |
+         | |R|Y|Y|R|R|R|
+
+         YELLOW to play
+         Value: -13
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |R|Y| | | |
+         | | |Y|Y|R|R|R|
+
+         YELLOW to play
+         Value: -16
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | |R| | | |
+         | | | |Y| | | |
+         | | |Y|Y|R|R|R|
+
+         YELLOW to play
+         Value: -15
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | |Y|R| | |
+         | | |Y|Y|R|R|R|
+
+         YELLOW to play
+         Value: -15
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | |Y| |R| |
+         | | |Y|Y|R|R|R|
+
+         YELLOW to play
+         Value: -15
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | |Y| | |R|
+         | | |Y|Y|R|R|R|
+
+      RED to play
+      Value: -16
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      | | | | |Y| | |
+      | | |Y|Y|R|R|R|
+
+      Children at depth 3:
+      ----------------
+         YELLOW to play
+         Value: -8
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | |Y| | |
+         |R| |Y|Y|R|R|R|
+
+         YELLOW to play
+         Value: -10
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | |Y| | |
+         | |R|Y|Y|R|R|R|
+
+         YELLOW to play
+         Value: -13
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |R| |Y| | |
+         | | |Y|Y|R|R|R|
+
+         YELLOW to play
+         Value: -15
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | |R|Y| | |
+         | | |Y|Y|R|R|R|
+
+         YELLOW to play
+         Value: -16
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | |R| | |
+         | | | | |Y| | |
+         | | |Y|Y|R|R|R|
+
+         YELLOW to play
+         Value: -15
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | |Y|R| |
+         | | |Y|Y|R|R|R|
+
+         YELLOW to play
+         Value: -15
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | |Y| |R|
+         | | |Y|Y|R|R|R|
+
+      RED to play
+      Value: -16
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | |Y| |
+      | | |Y|Y|R|R|R|
+
+      Children at depth 3:
+      ----------------
+         YELLOW to play
+         Value: -8
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | |Y| |
+         |R| |Y|Y|R|R|R|
+
+         YELLOW to play
+         Value: -10
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | |Y| |
+         | |R|Y|Y|R|R|R|
+
+         YELLOW to play
+         Value: -13
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |R| | |Y| |
+         | | |Y|Y|R|R|R|
+
+         YELLOW to play
+         Value: -15
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | |R| |Y| |
+         | | |Y|Y|R|R|R|
+
+         YELLOW to play
+         Value: -15
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | |R|Y| |
+         | | |Y|Y|R|R|R|
+
+         YELLOW to play
+         Value: -16
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | |R| |
+         | | | | | |Y| |
+         | | |Y|Y|R|R|R|
+
+         YELLOW to play
+         Value: -15
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | |Y|R|
+         | | |Y|Y|R|R|R|
+
+      RED to play
+      Value: -16
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | |Y|
+      | | |Y|Y|R|R|R|
+
+      Children at depth 3:
+      ----------------
+         YELLOW to play
+         Value: -8
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | |Y|
+         |R| |Y|Y|R|R|R|
+
+         YELLOW to play
+         Value: -10
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | |Y|
+         | |R|Y|Y|R|R|R|
+
+         YELLOW to play
+         Value: -13
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |R| | | |Y|
+         | | |Y|Y|R|R|R|
+
+         YELLOW to play
+         Value: -15
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | |R| | |Y|
+         | | |Y|Y|R|R|R|
+
+         YELLOW to play
+         Value: -15
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | |R| |Y|
+         | | |Y|Y|R|R|R|
+
+         YELLOW to play
+         Value: -15
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | |R|Y|
+         | | |Y|Y|R|R|R|
+
+         YELLOW to play
+         Value: -16
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | |R|
+         | | | | | | |Y|
+         | | |Y|Y|R|R|R|
+
+   YELLOW to play
+   Value: -15
+   | | | | | | | |
+   | | | | | | | |
+   | | | | | | | |
+   | | | | | | | |
+   | | | | | | |R|
+   | | |Y|Y|R| |R|
+
+   Children at depth 2:
+   ----------------
+      RED to play
+      Value: -24
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | |R|
+      |Y| |Y|Y|R| |R|
+
+      Children at depth 3:
+      ----------------
+         YELLOW to play
+         Value: -16
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         |R| | | | | |R|
+         |Y| |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -18
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | |R|
+         |Y|R|Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -21
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |R| | | |R|
+         |Y| |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -23
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | |R| | |R|
+         |Y| |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -23
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | |R| |R|
+         |Y| |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -22
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | |R|
+         |Y| |Y|Y|R|R|R|
+
+         YELLOW to play
+         Value: -24
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | |R|
+         | | | | | | |R|
+         |Y| |Y|Y|R| |R|
+
+      RED to play
+      Value: -22
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | |R|
+      | |Y|Y|Y|R| |R|
+
+      Children at depth 3:
+      ----------------
+         YELLOW to play
+         Value: -14
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | |R|
+         |R|Y|Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -17
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | |R| | | | |R|
+         | |Y|Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -19
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |R| | | |R|
+         | |Y|Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -21
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | |R| | |R|
+         | |Y|Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -21
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | |R| |R|
+         | |Y|Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -20
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | |R|
+         | |Y|Y|Y|R|R|R|
+
+         YELLOW to play
+         Value: -22
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | |R|
+         | | | | | | |R|
+         | |Y|Y|Y|R| |R|
+
+      RED to play
+      Value: -19
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      | | |Y| | | |R|
+      | | |Y|Y|R| |R|
+
+      Children at depth 3:
+      ----------------
+         YELLOW to play
+         Value: -11
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |Y| | | |R|
+         |R| |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -13
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |Y| | | |R|
+         | |R|Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -17
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |R| | | | |
+         | | |Y| | | |R|
+         | | |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -18
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |Y|R| | |R|
+         | | |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -18
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |Y| |R| |R|
+         | | |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -17
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |Y| | | |R|
+         | | |Y|Y|R|R|R|
+
+         YELLOW to play
+         Value: -19
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | |R|
+         | | |Y| | | |R|
+         | | |Y|Y|R| |R|
+
+      RED to play
+      Value: -17
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      | | | |Y| | |R|
+      | | |Y|Y|R| |R|
+
+      Children at depth 3:
+      ----------------
+         YELLOW to play
+         Value: -9
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | |Y| | |R|
+         |R| |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -11
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | |Y| | |R|
+         | |R|Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -14
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |R|Y| | |R|
+         | | |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -17
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | |R| | | |
+         | | | |Y| | |R|
+         | | |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -16
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | |Y|R| |R|
+         | | |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -15
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | |Y| | |R|
+         | | |Y|Y|R|R|R|
+
+         YELLOW to play
+         Value: -17
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | |R|
+         | | | |Y| | |R|
+         | | |Y|Y|R| |R|
+
+      RED to play
+      Value: -17
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      | | | | |Y| |R|
+      | | |Y|Y|R| |R|
+
+      Children at depth 3:
+      ----------------
+         YELLOW to play
+         Value: -9
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | |Y| |R|
+         |R| |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -11
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | |Y| |R|
+         | |R|Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -14
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |R| |Y| |R|
+         | | |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -16
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | |R|Y| |R|
+         | | |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -17
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | |R| | |
+         | | | | |Y| |R|
+         | | |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -15
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | |Y| |R|
+         | | |Y|Y|R|R|R|
+
+         YELLOW to play
+         Value: -17
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | |R|
+         | | | | |Y| |R|
+         | | |Y|Y|R| |R|
+
+      RED to play
+      Value: -18
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | |R|
+      | | |Y|Y|R|Y|R|
+
+      Children at depth 3:
+      ----------------
+         YELLOW to play
+         Value: -10
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | |R|
+         |R| |Y|Y|R|Y|R|
+
+         YELLOW to play
+         Value: -12
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | |R|
+         | |R|Y|Y|R|Y|R|
+
+         YELLOW to play
+         Value: -15
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |R| | | |R|
+         | | |Y|Y|R|Y|R|
+
+         YELLOW to play
+         Value: -17
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | |R| | |R|
+         | | |Y|Y|R|Y|R|
+
+         YELLOW to play
+         Value: -17
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | |R| |R|
+         | | |Y|Y|R|Y|R|
+
+         YELLOW to play
+         Value: -17
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | |R|R|
+         | | |Y|Y|R|Y|R|
+
+         YELLOW to play
+         Value: -18
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | |R|
+         | | | | | | |R|
+         | | |Y|Y|R|Y|R|
+
+      RED to play
+      Value: -15
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | |Y|
+      | | | | | | |R|
+      | | |Y|Y|R| |R|
+
+      Children at depth 3:
+      ----------------
+         YELLOW to play
+         Value: -8
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | |Y|
+         | | | | | | |R|
+         |R| |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -10
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | |Y|
+         | | | | | | |R|
+         | |R|Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -13
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | |Y|
+         | | |R| | | |R|
+         | | |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -15
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | |Y|
+         | | | |R| | |R|
+         | | |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -15
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | |Y|
+         | | | | |R| |R|
+         | | |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -14
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | |Y|
+         | | | | | | |R|
+         | | |Y|Y|R|R|R|
+
+         YELLOW to play
+         Value: -15
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | |R|
+         | | | | | | |Y|
+         | | | | | | |R|
+         | | |Y|Y|R| |R|
+
+   YELLOW to play
+   Value: -10
+   | | | | | | | |
+   | | | | | | | |
+   | | | | | | | |
+   | | | | | | | |
+   | | | | | | | |
+   |R| |Y|Y|R| |R|
+
+   Children at depth 2:
+   ----------------
+      RED to play
+      Value: -16
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      |Y| | | | | | |
+      |R| |Y|Y|R| |R|
+
+      Children at depth 3:
+      ----------------
+         YELLOW to play
+         Value: -9
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         |R| | | | | | |
+         |Y| | | | | | |
+         |R| |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -11
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         |Y| | | | | | |
+         |R|R|Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -14
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         |Y| |R| | | | |
+         |R| |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -16
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         |Y| | |R| | | |
+         |R| |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -16
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         |Y| | | |R| | |
+         |R| |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -15
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         |Y| | | | | | |
+         |R| |Y|Y|R|R|R|
+
+         YELLOW to play
+         Value: -16
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         |Y| | | | | |R|
+         |R| |Y|Y|R| |R|
+
+      RED to play
+      Value: -14
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      |R|Y|Y|Y|R| |R|
+
+      Children at depth 3:
+      ----------------
+         YELLOW to play
+         Value: -7
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         |R| | | | | | |
+         |R|Y|Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -10
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | |R| | | | | |
+         |R|Y|Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -12
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |R| | | | |
+         |R|Y|Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -14
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | |R| | | |
+         |R|Y|Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -14
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | |R| | |
+         |R|Y|Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -13
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         |R|Y|Y|Y|R|R|R|
+
+         YELLOW to play
+         Value: -14
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | |R|
+         |R|Y|Y|Y|R| |R|
+
+      RED to play
+      Value: -11
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      | | |Y| | | | |
+      |R| |Y|Y|R| |R|
+
+      Children at depth 3:
+      ----------------
+         YELLOW to play
+         Value: -4
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         |R| |Y| | | | |
+         |R| |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -6
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |Y| | | | |
+         |R|R|Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -10
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |R| | | | |
+         | | |Y| | | | |
+         |R| |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -11
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |Y|R| | | |
+         |R| |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -11
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |Y| |R| | |
+         |R| |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -10
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |Y| | | | |
+         |R| |Y|Y|R|R|R|
+
+         YELLOW to play
+         Value: -11
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |Y| | | |R|
+         |R| |Y|Y|R| |R|
+
+      RED to play
+      Value: -10
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      | | | |Y| | | |
+      |R| |Y|Y|R| |R|
+
+      Children at depth 3:
+      ----------------
+         YELLOW to play
+         Value: -2
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         |R| | |Y| | | |
+         |R| |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -4
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | |Y| | | |
+         |R|R|Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -7
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |R|Y| | | |
+         |R| |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -10
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | |R| | | |
+         | | | |Y| | | |
+         |R| |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -9
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | |Y|R| | |
+         |R| |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -8
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | |Y| | | |
+         |R| |Y|Y|R|R|R|
+
+         YELLOW to play
+         Value: -9
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | |Y| | |R|
+         |R| |Y|Y|R| |R|
+
+      RED to play
+      Value: -10
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      | | | | |Y| | |
+      |R| |Y|Y|R| |R|
+
+      Children at depth 3:
+      ----------------
+         YELLOW to play
+         Value: -2
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         |R| | | |Y| | |
+         |R| |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -4
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | |Y| | |
+         |R|R|Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -7
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |R| |Y| | |
+         |R| |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -9
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | |R|Y| | |
+         |R| |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -10
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | |R| | |
+         | | | | |Y| | |
+         |R| |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -8
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | |Y| | |
+         |R| |Y|Y|R|R|R|
+
+         YELLOW to play
+         Value: -9
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | |Y| |R|
+         |R| |Y|Y|R| |R|
+
+      RED to play
+      Value: -10
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      |R| |Y|Y|R|Y|R|
+
+      Children at depth 3:
+      ----------------
+         YELLOW to play
+         Value: -3
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         |R| | | | | | |
+         |R| |Y|Y|R|Y|R|
+
+         YELLOW to play
+         Value: -5
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         |R|R|Y|Y|R|Y|R|
+
+         YELLOW to play
+         Value: -8
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |R| | | | |
+         |R| |Y|Y|R|Y|R|
+
+         YELLOW to play
+         Value: -10
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | |R| | | |
+         |R| |Y|Y|R|Y|R|
+
+         YELLOW to play
+         Value: -10
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | |R| | |
+         |R| |Y|Y|R|Y|R|
+
+         YELLOW to play
+         Value: -10
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | |R| |
+         |R| |Y|Y|R|Y|R|
+
+         YELLOW to play
+         Value: -10
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | |R|
+         |R| |Y|Y|R|Y|R|
+
+      RED to play
+      Value: -10
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | |Y|
+      |R| |Y|Y|R| |R|
+
+      Children at depth 3:
+      ----------------
+         YELLOW to play
+         Value: -2
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         |R| | | | | |Y|
+         |R| |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -4
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | |Y|
+         |R|R|Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -7
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |R| | | |Y|
+         |R| |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -9
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | |R| | |Y|
+         |R| |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -9
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | |R| |Y|
+         |R| |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -8
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | |Y|
+         |R| |Y|Y|R|R|R|
+
+         YELLOW to play
+         Value: -10
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | |R|
+         | | | | | | |Y|
+         |R| |Y|Y|R| |R|
+
+   YELLOW to play
+   Value: -12
+   | | | | | | | |
+   | | | | | | | |
+   | | | | | | | |
+   | | | | | | | |
+   | | | | | | | |
+   | |R|Y|Y|R| |R|
+
+   Children at depth 2:
+   ----------------
+      RED to play
+      Value: -18
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      |Y|R|Y|Y|R| |R|
+
+      Children at depth 3:
+      ----------------
+         YELLOW to play
+         Value: -11
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         |R| | | | | | |
+         |Y|R|Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -14
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | |R| | | | | |
+         |Y|R|Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -16
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |R| | | | |
+         |Y|R|Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -18
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | |R| | | |
+         |Y|R|Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -18
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | |R| | |
+         |Y|R|Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -17
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         |Y|R|Y|Y|R|R|R|
+
+         YELLOW to play
+         Value: -18
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | |R|
+         |Y|R|Y|Y|R| |R|
+
+      RED to play
+      Value: -15
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      | |Y| | | | | |
+      | |R|Y|Y|R| |R|
+
+      Children at depth 3:
+      ----------------
+         YELLOW to play
+         Value: -8
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | |Y| | | | | |
+         |R|R|Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -11
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | |R| | | | | |
+         | |Y| | | | | |
+         | |R|Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -13
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | |Y|R| | | | |
+         | |R|Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -15
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | |Y| |R| | | |
+         | |R|Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -15
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | |Y| | |R| | |
+         | |R|Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -14
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | |Y| | | | | |
+         | |R|Y|Y|R|R|R|
+
+         YELLOW to play
+         Value: -15
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | |Y| | | | |R|
+         | |R|Y|Y|R| |R|
+
+      RED to play
+      Value: -13
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      | | |Y| | | | |
+      | |R|Y|Y|R| |R|
+
+      Children at depth 3:
+      ----------------
+         YELLOW to play
+         Value: -6
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |Y| | | | |
+         |R|R|Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -9
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | |R|Y| | | | |
+         | |R|Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -12
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |R| | | | |
+         | | |Y| | | | |
+         | |R|Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -13
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |Y|R| | | |
+         | |R|Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -13
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |Y| |R| | |
+         | |R|Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -12
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |Y| | | | |
+         | |R|Y|Y|R|R|R|
+
+         YELLOW to play
+         Value: -13
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |Y| | | |R|
+         | |R|Y|Y|R| |R|
+
+      RED to play
+      Value: -12
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      | | | |Y| | | |
+      | |R|Y|Y|R| |R|
+
+      Children at depth 3:
+      ----------------
+         YELLOW to play
+         Value: -4
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | |Y| | | |
+         |R|R|Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -7
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | |R| |Y| | | |
+         | |R|Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -9
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |R|Y| | | |
+         | |R|Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -12
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | |R| | | |
+         | | | |Y| | | |
+         | |R|Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -11
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | |Y|R| | |
+         | |R|Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -10
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | |Y| | | |
+         | |R|Y|Y|R|R|R|
+
+         YELLOW to play
+         Value: -11
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | |Y| | |R|
+         | |R|Y|Y|R| |R|
+
+      RED to play
+      Value: -12
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      | | | | |Y| | |
+      | |R|Y|Y|R| |R|
+
+      Children at depth 3:
+      ----------------
+         YELLOW to play
+         Value: -4
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | |Y| | |
+         |R|R|Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -7
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | |R| | |Y| | |
+         | |R|Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -9
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |R| |Y| | |
+         | |R|Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -11
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | |R|Y| | |
+         | |R|Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -12
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | |R| | |
+         | | | | |Y| | |
+         | |R|Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -10
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | |Y| | |
+         | |R|Y|Y|R|R|R|
+
+         YELLOW to play
+         Value: -11
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | |Y| |R|
+         | |R|Y|Y|R| |R|
+
+      RED to play
+      Value: -12
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      | |R|Y|Y|R|Y|R|
+
+      Children at depth 3:
+      ----------------
+         YELLOW to play
+         Value: -5
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         |R|R|Y|Y|R|Y|R|
+
+         YELLOW to play
+         Value: -8
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | |R| | | | | |
+         | |R|Y|Y|R|Y|R|
+
+         YELLOW to play
+         Value: -10
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |R| | | | |
+         | |R|Y|Y|R|Y|R|
+
+         YELLOW to play
+         Value: -12
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | |R| | | |
+         | |R|Y|Y|R|Y|R|
+
+         YELLOW to play
+         Value: -12
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | |R| | |
+         | |R|Y|Y|R|Y|R|
+
+         YELLOW to play
+         Value: -12
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | |R| |
+         | |R|Y|Y|R|Y|R|
+
+         YELLOW to play
+         Value: -12
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | |R|
+         | |R|Y|Y|R|Y|R|
+
+      RED to play
+      Value: -12
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | |Y|
+      | |R|Y|Y|R| |R|
+
+      Children at depth 3:
+      ----------------
+         YELLOW to play
+         Value: -4
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | |Y|
+         |R|R|Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -7
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | |R| | | | |Y|
+         | |R|Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -9
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |R| | | |Y|
+         | |R|Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -11
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | |R| | |Y|
+         | |R|Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -11
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | |R| |Y|
+         | |R|Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -10
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | |Y|
+         | |R|Y|Y|R|R|R|
+
+         YELLOW to play
+         Value: -12
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | |R|
+         | | | | | | |Y|
+         | |R|Y|Y|R| |R|
+
+   YELLOW to play
+   Value: -15
+   | | | | | | | |
+   | | | | | | | |
+   | | | | | | | |
+   | | | | | | | |
+   | | |R| | | | |
+   | | |Y|Y|R| |R|
+
+   Children at depth 2:
+   ----------------
+      RED to play
+      Value: -21
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      | | |R| | | | |
+      |Y| |Y|Y|R| |R|
+
+      Children at depth 3:
+      ----------------
+         YELLOW to play
+         Value: -14
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         |R| |R| | | | |
+         |Y| |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -16
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |R| | | | |
+         |Y|R|Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -20
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |R| | | | |
+         | | |R| | | | |
+         |Y| |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -21
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |R|R| | | |
+         |Y| |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -21
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |R| |R| | |
+         |Y| |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -20
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |R| | | | |
+         |Y| |Y|Y|R|R|R|
+
+         YELLOW to play
+         Value: -21
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |R| | | |R|
+         |Y| |Y|Y|R| |R|
+
+      RED to play
+      Value: -19
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      | | |R| | | | |
+      | |Y|Y|Y|R| |R|
+
+      Children at depth 3:
+      ----------------
+         YELLOW to play
+         Value: -12
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |R| | | | |
+         |R|Y|Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -15
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | |R|R| | | | |
+         | |Y|Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -18
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |R| | | | |
+         | | |R| | | | |
+         | |Y|Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -19
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |R|R| | | |
+         | |Y|Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -19
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |R| |R| | |
+         | |Y|Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -18
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |R| | | | |
+         | |Y|Y|Y|R|R|R|
+
+         YELLOW to play
+         Value: -19
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |R| | | |R|
+         | |Y|Y|Y|R| |R|
+
+      RED to play
+      Value: -15
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      | | |Y| | | | |
+      | | |R| | | | |
+      | | |Y|Y|R| |R|
+
+      Children at depth 3:
+      ----------------
+         YELLOW to play
+         Value: -8
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |Y| | | | |
+         | | |R| | | | |
+         |R| |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -10
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |Y| | | | |
+         | | |R| | | | |
+         | |R|Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -13
+         | | | | | | | |
+         | | | | | | | |
+         | | |R| | | | |
+         | | |Y| | | | |
+         | | |R| | | | |
+         | | |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -15
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |Y| | | | |
+         | | |R|R| | | |
+         | | |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -15
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |Y| | | | |
+         | | |R| |R| | |
+         | | |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -14
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |Y| | | | |
+         | | |R| | | | |
+         | | |Y|Y|R|R|R|
+
+         YELLOW to play
+         Value: -15
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |Y| | | | |
+         | | |R| | | |R|
+         | | |Y|Y|R| |R|
+
+      RED to play
+      Value: -15
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      | | |R|Y| | | |
+      | | |Y|Y|R| |R|
+
+      Children at depth 3:
+      ----------------
+         YELLOW to play
+         Value: -7
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |R|Y| | | |
+         |R| |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -9
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |R|Y| | | |
+         | |R|Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -13
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |R| | | | |
+         | | |R|Y| | | |
+         | | |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -15
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | |R| | | |
+         | | |R|Y| | | |
+         | | |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -14
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |R|Y|R| | |
+         | | |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -13
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |R|Y| | | |
+         | | |Y|Y|R|R|R|
+
+         YELLOW to play
+         Value: -14
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |R|Y| | |R|
+         | | |Y|Y|R| |R|
+
+      RED to play
+      Value: -15
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      | | |R| |Y| | |
+      | | |Y|Y|R| |R|
+
+      Children at depth 3:
+      ----------------
+         YELLOW to play
+         Value: -7
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |R| |Y| | |
+         |R| |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -9
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |R| |Y| | |
+         | |R|Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -13
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |R| | | | |
+         | | |R| |Y| | |
+         | | |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -14
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |R|R|Y| | |
+         | | |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -15
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | |R| | |
+         | | |R| |Y| | |
+         | | |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -13
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |R| |Y| | |
+         | | |Y|Y|R|R|R|
+
+         YELLOW to play
+         Value: -14
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |R| |Y| |R|
+         | | |Y|Y|R| |R|
+
+      RED to play
+      Value: -15
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      | | |R| | | | |
+      | | |Y|Y|R|Y|R|
+
+      Children at depth 3:
+      ----------------
+         YELLOW to play
+         Value: -8
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |R| | | | |
+         |R| |Y|Y|R|Y|R|
+
+         YELLOW to play
+         Value: -10
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |R| | | | |
+         | |R|Y|Y|R|Y|R|
+
+         YELLOW to play
+         Value: -14
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |R| | | | |
+         | | |R| | | | |
+         | | |Y|Y|R|Y|R|
+
+         YELLOW to play
+         Value: -15
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |R|R| | | |
+         | | |Y|Y|R|Y|R|
+
+         YELLOW to play
+         Value: -15
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |R| |R| | |
+         | | |Y|Y|R|Y|R|
+
+         YELLOW to play
+         Value: -15
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |R| | |R| |
+         | | |Y|Y|R|Y|R|
+
+         YELLOW to play
+         Value: -15
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |R| | | |R|
+         | | |Y|Y|R|Y|R|
+
+      RED to play
+      Value: -15
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      | | |R| | | |Y|
+      | | |Y|Y|R| |R|
+
+      Children at depth 3:
+      ----------------
+         YELLOW to play
+         Value: -7
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |R| | | |Y|
+         |R| |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -9
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |R| | | |Y|
+         | |R|Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -13
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |R| | | | |
+         | | |R| | | |Y|
+         | | |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -14
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |R|R| | |Y|
+         | | |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -14
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |R| |R| |Y|
+         | | |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -13
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |R| | | |Y|
+         | | |Y|Y|R|R|R|
+
+         YELLOW to play
+         Value: -15
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | |R|
+         | | |R| | | |Y|
+         | | |Y|Y|R| |R|
+
+   YELLOW to play
+   Value: -15
+   | | | | | | | |
+   | | | | | | | |
+   | | | | | | | |
+   | | | | | | | |
+   | | | |R| | | |
+   | | |Y|Y|R| |R|
+
+   Children at depth 2:
+   ----------------
+      RED to play
+      Value: -24
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      | | | |R| | | |
+      |Y| |Y|Y|R| |R|
+
+      Children at depth 3:
+      ----------------
+         YELLOW to play
+         Value: -16
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         |R| | |R| | | |
+         |Y| |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -18
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | |R| | | |
+         |Y|R|Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -21
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |R|R| | | |
+         |Y| |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -24
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | |R| | | |
+         | | | |R| | | |
+         |Y| |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -23
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | |R|R| | |
+         |Y| |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -22
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | |R| | | |
+         |Y| |Y|Y|R|R|R|
+
+         YELLOW to play
+         Value: -23
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | |R| | |R|
+         |Y| |Y|Y|R| |R|
+
+      RED to play
+      Value: -22
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      | | | |R| | | |
+      | |Y|Y|Y|R| |R|
+
+      Children at depth 3:
+      ----------------
+         YELLOW to play
+         Value: -14
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | |R| | | |
+         |R|Y|Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -17
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | |R| |R| | | |
+         | |Y|Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -19
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |R|R| | | |
+         | |Y|Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -22
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | |R| | | |
+         | | | |R| | | |
+         | |Y|Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -21
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | |R|R| | |
+         | |Y|Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -20
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | |R| | | |
+         | |Y|Y|Y|R|R|R|
+
+         YELLOW to play
+         Value: -21
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | |R| | |R|
+         | |Y|Y|Y|R| |R|
+
+      RED to play
+      Value: -19
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      | | |Y|R| | | |
+      | | |Y|Y|R| |R|
+
+      Children at depth 3:
+      ----------------
+         YELLOW to play
+         Value: -11
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |Y|R| | | |
+         |R| |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -13
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |Y|R| | | |
+         | |R|Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -17
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |R| | | | |
+         | | |Y|R| | | |
+         | | |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -19
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | |R| | | |
+         | | |Y|R| | | |
+         | | |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -18
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |Y|R|R| | |
+         | | |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -17
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |Y|R| | | |
+         | | |Y|Y|R|R|R|
+
+         YELLOW to play
+         Value: -18
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |Y|R| | |R|
+         | | |Y|Y|R| |R|
+
+      RED to play
+      Value: -15
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      | | | |Y| | | |
+      | | | |R| | | |
+      | | |Y|Y|R| |R|
+
+      Children at depth 3:
+      ----------------
+         YELLOW to play
+         Value: -8
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | |Y| | | |
+         | | | |R| | | |
+         |R| |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -10
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | |Y| | | |
+         | | | |R| | | |
+         | |R|Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -13
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | |Y| | | |
+         | | |R|R| | | |
+         | | |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -15
+         | | | | | | | |
+         | | | | | | | |
+         | | | |R| | | |
+         | | | |Y| | | |
+         | | | |R| | | |
+         | | |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -15
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | |Y| | | |
+         | | | |R|R| | |
+         | | |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -14
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | |Y| | | |
+         | | | |R| | | |
+         | | |Y|Y|R|R|R|
+
+         YELLOW to play
+         Value: -15
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | |Y| | | |
+         | | | |R| | |R|
+         | | |Y|Y|R| |R|
+
+      RED to play
+      Value: -17
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      | | | |R|Y| | |
+      | | |Y|Y|R| |R|
+
+      Children at depth 3:
+      ----------------
+         YELLOW to play
+         Value: -9
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | |R|Y| | |
+         |R| |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -11
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | |R|Y| | |
+         | |R|Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -14
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |R|R|Y| | |
+         | | |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -17
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | |R| | | |
+         | | | |R|Y| | |
+         | | |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -17
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | |R| | |
+         | | | |R|Y| | |
+         | | |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -15
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | |R|Y| | |
+         | | |Y|Y|R|R|R|
+
+         YELLOW to play
+         Value: -16
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | |R|Y| |R|
+         | | |Y|Y|R| |R|
+
+      RED to play
+      Value: -18
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      | | | |R| | | |
+      | | |Y|Y|R|Y|R|
+
+      Children at depth 3:
+      ----------------
+         YELLOW to play
+         Value: -10
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | |R| | | |
+         |R| |Y|Y|R|Y|R|
+
+         YELLOW to play
+         Value: -12
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | |R| | | |
+         | |R|Y|Y|R|Y|R|
+
+         YELLOW to play
+         Value: -15
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |R|R| | | |
+         | | |Y|Y|R|Y|R|
+
+         YELLOW to play
+         Value: -18
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | |R| | | |
+         | | | |R| | | |
+         | | |Y|Y|R|Y|R|
+
+         YELLOW to play
+         Value: -17
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | |R|R| | |
+         | | |Y|Y|R|Y|R|
+
+         YELLOW to play
+         Value: -17
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | |R| |R| |
+         | | |Y|Y|R|Y|R|
+
+         YELLOW to play
+         Value: -17
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | |R| | |R|
+         | | |Y|Y|R|Y|R|
+
+      RED to play
+      Value: -17
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      | | | |R| | |Y|
+      | | |Y|Y|R| |R|
+
+      Children at depth 3:
+      ----------------
+         YELLOW to play
+         Value: -9
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | |R| | |Y|
+         |R| |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -11
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | |R| | |Y|
+         | |R|Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -14
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |R|R| | |Y|
+         | | |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -17
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | |R| | | |
+         | | | |R| | |Y|
+         | | |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -16
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | |R|R| |Y|
+         | | |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -15
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | |R| | |Y|
+         | | |Y|Y|R|R|R|
+
+         YELLOW to play
+         Value: -17
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | |R|
+         | | | |R| | |Y|
+         | | |Y|Y|R| |R|
+
+   YELLOW to play
+   Value: -15
+   | | | | | | | |
+   | | | | | | | |
+   | | | | | | | |
+   | | | | | | | |
+   | | | | |R| | |
+   | | |Y|Y|R| |R|
+
+   Children at depth 2:
+   ----------------
+      RED to play
+      Value: -24
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      | | | | |R| | |
+      |Y| |Y|Y|R| |R|
+
+      Children at depth 3:
+      ----------------
+         YELLOW to play
+         Value: -16
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         |R| | | |R| | |
+         |Y| |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -18
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | |R| | |
+         |Y|R|Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -21
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |R| |R| | |
+         |Y| |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -23
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | |R|R| | |
+         |Y| |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -24
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | |R| | |
+         | | | | |R| | |
+         |Y| |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -22
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | |R| | |
+         |Y| |Y|Y|R|R|R|
+
+         YELLOW to play
+         Value: -23
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | |R| |R|
+         |Y| |Y|Y|R| |R|
+
+      RED to play
+      Value: -22
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      | | | | |R| | |
+      | |Y|Y|Y|R| |R|
+
+      Children at depth 3:
+      ----------------
+         YELLOW to play
+         Value: -14
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | |R| | |
+         |R|Y|Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -17
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | |R| | |R| | |
+         | |Y|Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -19
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |R| |R| | |
+         | |Y|Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -21
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | |R|R| | |
+         | |Y|Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -22
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | |R| | |
+         | | | | |R| | |
+         | |Y|Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -20
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | |R| | |
+         | |Y|Y|Y|R|R|R|
+
+         YELLOW to play
+         Value: -21
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | |R| |R|
+         | |Y|Y|Y|R| |R|
+
+      RED to play
+      Value: -19
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      | | |Y| |R| | |
+      | | |Y|Y|R| |R|
+
+      Children at depth 3:
+      ----------------
+         YELLOW to play
+         Value: -11
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |Y| |R| | |
+         |R| |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -13
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |Y| |R| | |
+         | |R|Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -17
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |R| | | | |
+         | | |Y| |R| | |
+         | | |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -18
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |Y|R|R| | |
+         | | |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -19
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | |R| | |
+         | | |Y| |R| | |
+         | | |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -17
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |Y| |R| | |
+         | | |Y|Y|R|R|R|
+
+         YELLOW to play
+         Value: -18
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |Y| |R| |R|
+         | | |Y|Y|R| |R|
+
+      RED to play
+      Value: -17
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      | | | |Y|R| | |
+      | | |Y|Y|R| |R|
+
+      Children at depth 3:
+      ----------------
+         YELLOW to play
+         Value: -9
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | |Y|R| | |
+         |R| |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -11
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | |Y|R| | |
+         | |R|Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -14
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |R|Y|R| | |
+         | | |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -17
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | |R| | | |
+         | | | |Y|R| | |
+         | | |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -17
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | |R| | |
+         | | | |Y|R| | |
+         | | |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -15
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | |Y|R| | |
+         | | |Y|Y|R|R|R|
+
+         YELLOW to play
+         Value: -16
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | |Y|R| |R|
+         | | |Y|Y|R| |R|
+
+      RED to play
+      Value: -15
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      | | | | |Y| | |
+      | | | | |R| | |
+      | | |Y|Y|R| |R|
+
+      Children at depth 3:
+      ----------------
+         YELLOW to play
+         Value: -8
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | |Y| | |
+         | | | | |R| | |
+         |R| |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -10
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | |Y| | |
+         | | | | |R| | |
+         | |R|Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -13
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | |Y| | |
+         | | |R| |R| | |
+         | | |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -15
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | |Y| | |
+         | | | |R|R| | |
+         | | |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -15
+         | | | | | | | |
+         | | | | | | | |
+         | | | | |R| | |
+         | | | | |Y| | |
+         | | | | |R| | |
+         | | |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -14
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | |Y| | |
+         | | | | |R| | |
+         | | |Y|Y|R|R|R|
+
+         YELLOW to play
+         Value: -15
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | |Y| | |
+         | | | | |R| |R|
+         | | |Y|Y|R| |R|
+
+      RED to play
+      Value: -18
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      | | | | |R| | |
+      | | |Y|Y|R|Y|R|
+
+      Children at depth 3:
+      ----------------
+         YELLOW to play
+         Value: -10
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | |R| | |
+         |R| |Y|Y|R|Y|R|
+
+         YELLOW to play
+         Value: -12
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | |R| | |
+         | |R|Y|Y|R|Y|R|
+
+         YELLOW to play
+         Value: -15
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |R| |R| | |
+         | | |Y|Y|R|Y|R|
+
+         YELLOW to play
+         Value: -17
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | |R|R| | |
+         | | |Y|Y|R|Y|R|
+
+         YELLOW to play
+         Value: -18
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | |R| | |
+         | | | | |R| | |
+         | | |Y|Y|R|Y|R|
+
+         YELLOW to play
+         Value: -17
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | |R|R| |
+         | | |Y|Y|R|Y|R|
+
+         YELLOW to play
+         Value: -17
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | |R| |R|
+         | | |Y|Y|R|Y|R|
+
+      RED to play
+      Value: -17
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      | | | | |R| |Y|
+      | | |Y|Y|R| |R|
+
+      Children at depth 3:
+      ----------------
+         YELLOW to play
+         Value: -9
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | |R| |Y|
+         |R| |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -11
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | |R| |Y|
+         | |R|Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -14
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |R| |R| |Y|
+         | | |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -16
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | |R|R| |Y|
+         | | |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -17
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | |R| | |
+         | | | | |R| |Y|
+         | | |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -15
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | |R| |Y|
+         | | |Y|Y|R|R|R|
+
+         YELLOW to play
+         Value: -17
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | |R|
+         | | | | |R| |Y|
+         | | |Y|Y|R| |R|
+
+   YELLOW to play
+   Value: -16
+   | | | | | | | |
+   | | | | | | | |
+   | | | | | | | |
+   | | | | | | | |
+   | | | | | | | |
+   | | |Y|Y|R|R|R|
+
+   Children at depth 2:
+   ----------------
+      RED to play
+      Value: -22
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      |Y| |Y|Y|R|R|R|
+
+      Children at depth 3:
+      ----------------
+         YELLOW to play
+         Value: -15
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         |R| | | | | | |
+         |Y| |Y|Y|R|R|R|
+
+         YELLOW to play
+         Value: -17
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         |Y|R|Y|Y|R|R|R|
+
+         YELLOW to play
+         Value: -20
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |R| | | | |
+         |Y| |Y|Y|R|R|R|
+
+         YELLOW to play
+         Value: -22
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | |R| | | |
+         |Y| |Y|Y|R|R|R|
+
+         YELLOW to play
+         Value: -22
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | |R| | |
+         |Y| |Y|Y|R|R|R|
+
+         YELLOW to play
+         Value: -22
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | |R| |
+         |Y| |Y|Y|R|R|R|
+
+         YELLOW to play
+         Value: -22
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | |R|
+         |Y| |Y|Y|R|R|R|
+
+      RED to play
+      Value: -20
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      | |Y|Y|Y|R|R|R|
+
+      Children at depth 3:
+      ----------------
+         YELLOW to play
+         Value: -13
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         |R|Y|Y|Y|R|R|R|
+
+         YELLOW to play
+         Value: -16
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | |R| | | | | |
+         | |Y|Y|Y|R|R|R|
+
+         YELLOW to play
+         Value: -18
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |R| | | | |
+         | |Y|Y|Y|R|R|R|
+
+         YELLOW to play
+         Value: -20
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | |R| | | |
+         | |Y|Y|Y|R|R|R|
+
+         YELLOW to play
+         Value: -20
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | |R| | |
+         | |Y|Y|Y|R|R|R|
+
+         YELLOW to play
+         Value: -20
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | |R| |
+         | |Y|Y|Y|R|R|R|
+
+         YELLOW to play
+         Value: -20
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | |R|
+         | |Y|Y|Y|R|R|R|
+
+      RED to play
+      Value: -17
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      | | |Y| | | | |
+      | | |Y|Y|R|R|R|
+
+      Children at depth 3:
+      ----------------
+         YELLOW to play
+         Value: -10
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |Y| | | | |
+         |R| |Y|Y|R|R|R|
+
+         YELLOW to play
+         Value: -12
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |Y| | | | |
+         | |R|Y|Y|R|R|R|
+
+         YELLOW to play
+         Value: -16
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |R| | | | |
+         | | |Y| | | | |
+         | | |Y|Y|R|R|R|
+
+         YELLOW to play
+         Value: -17
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |Y|R| | | |
+         | | |Y|Y|R|R|R|
+
+         YELLOW to play
+         Value: -17
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |Y| |R| | |
+         | | |Y|Y|R|R|R|
+
+         YELLOW to play
+         Value: -17
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |Y| | |R| |
+         | | |Y|Y|R|R|R|
+
+         YELLOW to play
+         Value: -17
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |Y| | | |R|
+         | | |Y|Y|R|R|R|
+
+      RED to play
+      Value: -16
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      | | | |Y| | | |
+      | | |Y|Y|R|R|R|
+
+      Children at depth 3:
+      ----------------
+         YELLOW to play
+         Value: -8
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | |Y| | | |
+         |R| |Y|Y|R|R|R|
+
+         YELLOW to play
+         Value: -10
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | |Y| | | |
+         | |R|Y|Y|R|R|R|
+
+         YELLOW to play
+         Value: -13
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |R|Y| | | |
+         | | |Y|Y|R|R|R|
+
+         YELLOW to play
+         Value: -16
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | |R| | | |
+         | | | |Y| | | |
+         | | |Y|Y|R|R|R|
+
+         YELLOW to play
+         Value: -15
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | |Y|R| | |
+         | | |Y|Y|R|R|R|
+
+         YELLOW to play
+         Value: -15
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | |Y| |R| |
+         | | |Y|Y|R|R|R|
+
+         YELLOW to play
+         Value: -15
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | |Y| | |R|
+         | | |Y|Y|R|R|R|
+
+      RED to play
+      Value: -16
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      | | | | |Y| | |
+      | | |Y|Y|R|R|R|
+
+      Children at depth 3:
+      ----------------
+         YELLOW to play
+         Value: -8
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | |Y| | |
+         |R| |Y|Y|R|R|R|
+
+         YELLOW to play
+         Value: -10
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | |Y| | |
+         | |R|Y|Y|R|R|R|
+
+         YELLOW to play
+         Value: -13
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |R| |Y| | |
+         | | |Y|Y|R|R|R|
+
+         YELLOW to play
+         Value: -15
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | |R|Y| | |
+         | | |Y|Y|R|R|R|
+
+         YELLOW to play
+         Value: -16
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | |R| | |
+         | | | | |Y| | |
+         | | |Y|Y|R|R|R|
+
+         YELLOW to play
+         Value: -15
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | |Y|R| |
+         | | |Y|Y|R|R|R|
+
+         YELLOW to play
+         Value: -15
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | |Y| |R|
+         | | |Y|Y|R|R|R|
+
+      RED to play
+      Value: -16
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | |Y| |
+      | | |Y|Y|R|R|R|
+
+      Children at depth 3:
+      ----------------
+         YELLOW to play
+         Value: -8
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | |Y| |
+         |R| |Y|Y|R|R|R|
+
+         YELLOW to play
+         Value: -10
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | |Y| |
+         | |R|Y|Y|R|R|R|
+
+         YELLOW to play
+         Value: -13
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |R| | |Y| |
+         | | |Y|Y|R|R|R|
+
+         YELLOW to play
+         Value: -15
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | |R| |Y| |
+         | | |Y|Y|R|R|R|
+
+         YELLOW to play
+         Value: -15
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | |R|Y| |
+         | | |Y|Y|R|R|R|
+
+         YELLOW to play
+         Value: -16
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | |R| |
+         | | | | | |Y| |
+         | | |Y|Y|R|R|R|
+
+         YELLOW to play
+         Value: -15
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | |Y|R|
+         | | |Y|Y|R|R|R|
+
+      RED to play
+      Value: -16
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | |Y|
+      | | |Y|Y|R|R|R|
+
+      Children at depth 3:
+      ----------------
+         YELLOW to play
+         Value: -8
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | |Y|
+         |R| |Y|Y|R|R|R|
+
+         YELLOW to play
+         Value: -10
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | |Y|
+         | |R|Y|Y|R|R|R|
+
+         YELLOW to play
+         Value: -13
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |R| | | |Y|
+         | | |Y|Y|R|R|R|
+
+         YELLOW to play
+         Value: -15
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | |R| | |Y|
+         | | |Y|Y|R|R|R|
+
+         YELLOW to play
+         Value: -15
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | |R| |Y|
+         | | |Y|Y|R|R|R|
+
+         YELLOW to play
+         Value: -15
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | |R|Y|
+         | | |Y|Y|R|R|R|
+
+         YELLOW to play
+         Value: -16
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | |R|
+         | | | | | | |Y|
+         | | |Y|Y|R|R|R|
+
+   YELLOW to play
+   Value: -15
+   | | | | | | | |
+   | | | | | | | |
+   | | | | | | | |
+   | | | | | | | |
+   | | | | | | |R|
+   | | |Y|Y|R| |R|
+
+   Children at depth 2:
+   ----------------
+      RED to play
+      Value: -24
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | |R|
+      |Y| |Y|Y|R| |R|
+
+      Children at depth 3:
+      ----------------
+         YELLOW to play
+         Value: -16
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         |R| | | | | |R|
+         |Y| |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -18
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | |R|
+         |Y|R|Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -21
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |R| | | |R|
+         |Y| |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -23
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | |R| | |R|
+         |Y| |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -23
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | |R| |R|
+         |Y| |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -22
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | |R|
+         |Y| |Y|Y|R|R|R|
+
+         YELLOW to play
+         Value: -24
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | |R|
+         | | | | | | |R|
+         |Y| |Y|Y|R| |R|
+
+      RED to play
+      Value: -22
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | |R|
+      | |Y|Y|Y|R| |R|
+
+      Children at depth 3:
+      ----------------
+         YELLOW to play
+         Value: -14
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | |R|
+         |R|Y|Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -17
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | |R| | | | |R|
+         | |Y|Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -19
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |R| | | |R|
+         | |Y|Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -21
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | |R| | |R|
+         | |Y|Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -21
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | |R| |R|
+         | |Y|Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -20
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | |R|
+         | |Y|Y|Y|R|R|R|
+
+         YELLOW to play
+         Value: -22
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | |R|
+         | | | | | | |R|
+         | |Y|Y|Y|R| |R|
+
+      RED to play
+      Value: -19
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      | | |Y| | | |R|
+      | | |Y|Y|R| |R|
+
+      Children at depth 3:
+      ----------------
+         YELLOW to play
+         Value: -11
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |Y| | | |R|
+         |R| |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -13
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |Y| | | |R|
+         | |R|Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -17
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |R| | | | |
+         | | |Y| | | |R|
+         | | |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -18
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |Y|R| | |R|
+         | | |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -18
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |Y| |R| |R|
+         | | |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -17
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |Y| | | |R|
+         | | |Y|Y|R|R|R|
+
+         YELLOW to play
+         Value: -19
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | |R|
+         | | |Y| | | |R|
+         | | |Y|Y|R| |R|
+
+      RED to play
+      Value: -17
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      | | | |Y| | |R|
+      | | |Y|Y|R| |R|
+
+      Children at depth 3:
+      ----------------
+         YELLOW to play
+         Value: -9
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | |Y| | |R|
+         |R| |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -11
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | |Y| | |R|
+         | |R|Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -14
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |R|Y| | |R|
+         | | |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -17
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | |R| | | |
+         | | | |Y| | |R|
+         | | |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -16
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | |Y|R| |R|
+         | | |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -15
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | |Y| | |R|
+         | | |Y|Y|R|R|R|
+
+         YELLOW to play
+         Value: -17
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | |R|
+         | | | |Y| | |R|
+         | | |Y|Y|R| |R|
+
+      RED to play
+      Value: -17
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      | | | | |Y| |R|
+      | | |Y|Y|R| |R|
+
+      Children at depth 3:
+      ----------------
+         YELLOW to play
+         Value: -9
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | |Y| |R|
+         |R| |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -11
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | |Y| |R|
+         | |R|Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -14
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |R| |Y| |R|
+         | | |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -16
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | |R|Y| |R|
+         | | |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -17
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | |R| | |
+         | | | | |Y| |R|
+         | | |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -15
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | |Y| |R|
+         | | |Y|Y|R|R|R|
+
+         YELLOW to play
+         Value: -17
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | |R|
+         | | | | |Y| |R|
+         | | |Y|Y|R| |R|
+
+      RED to play
+      Value: -18
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | |R|
+      | | |Y|Y|R|Y|R|
+
+      Children at depth 3:
+      ----------------
+         YELLOW to play
+         Value: -10
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | |R|
+         |R| |Y|Y|R|Y|R|
+
+         YELLOW to play
+         Value: -12
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | |R|
+         | |R|Y|Y|R|Y|R|
+
+         YELLOW to play
+         Value: -15
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | |R| | | |R|
+         | | |Y|Y|R|Y|R|
+
+         YELLOW to play
+         Value: -17
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | |R| | |R|
+         | | |Y|Y|R|Y|R|
+
+         YELLOW to play
+         Value: -17
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | |R| |R|
+         | | |Y|Y|R|Y|R|
+
+         YELLOW to play
+         Value: -17
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | |R|R|
+         | | |Y|Y|R|Y|R|
+
+         YELLOW to play
+         Value: -18
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | |R|
+         | | | | | | |R|
+         | | |Y|Y|R|Y|R|
+
+      RED to play
+      Value: -15
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | | |
+      | | | | | | |Y|
+      | | | | | | |R|
+      | | |Y|Y|R| |R|
+
+      Children at depth 3:
+      ----------------
+         YELLOW to play
+         Value: -8
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | |Y|
+         | | | | | | |R|
+         |R| |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -10
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | |Y|
+         | | | | | | |R|
+         | |R|Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -13
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | |Y|
+         | | |R| | | |R|
+         | | |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -15
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | |Y|
+         | | | |R| | |R|
+         | | |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -15
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | |Y|
+         | | | | |R| |R|
+         | | |Y|Y|R| |R|
+
+         YELLOW to play
+         Value: -14
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | |Y|
+         | | | | | | |R|
+         | | |Y|Y|R|R|R|
+
+         YELLOW to play
+         Value: -15
+         | | | | | | | |
+         | | | | | | | |
+         | | | | | | |R|
+         | | | | | | |Y|
+         | | | | | | |R|
+         | | |Y|Y|R| |R|
 
 

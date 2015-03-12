@@ -2,7 +2,7 @@ package connect4.userTest
 
 import connect4.scala._
 
-class InitialiseChildrenTest {
+object InitialiseChildrenTest extends App {
 
   val tempState = new State(RED, BuildUp.sortOfFullTestBoard, null)
   tempState.initializeChildren()
