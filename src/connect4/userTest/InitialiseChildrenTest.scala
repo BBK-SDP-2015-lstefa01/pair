@@ -10,6 +10,7 @@ object InitialiseChildrenTest extends App {
 
   val tempState2 = new State(RED, BuildUp.nearlyFullBoard, null)
   tempState2.initializeChildren()
+  println(tempState2.children(0).lastMove)
   println(tempState2)
 
   //  val tempState3 = new State(RED, BuildUp.fullBoard, null)

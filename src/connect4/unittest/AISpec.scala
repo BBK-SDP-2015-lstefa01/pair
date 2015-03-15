@@ -27,9 +27,12 @@ class AISpec extends FlatSpec {
     val tempState = new State(RED, b, null)
     val ai = new AI(YELLOW, 3)
 
+    tempState.initializeChildren()
     ai.minimax(tempState)
-    //FIXME not a very good test currently
+
+    //check value has been changed from 0
     assert(tempState.value != 0)
+    assert(tempState.children(0).value != 0)
 
   }
 
@@ -39,8 +42,9 @@ class AISpec extends FlatSpec {
 
     AI.createGameTree(tempState, 2) //depth of the tree includes the root?
 
+    //level 1 and 2 are not blank
     assert(tempState.children != Array[State]())
-
+    assert(tempState.children(0).children != Array[State]())
 
   }
 

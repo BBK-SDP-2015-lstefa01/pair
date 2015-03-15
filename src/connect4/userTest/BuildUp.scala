@@ -34,18 +34,28 @@ object BuildUp {
   nearlyFullBoard.makeMove(new Move(RED, 1))
   nearlyFullBoard.makeMove(new Move(YELLOW, 5))
 
+  val oneFullColumnBoard = new Board()
+  oneFullColumnBoard.makeMove(new Move(YELLOW, 0))
+  oneFullColumnBoard.makeMove(new Move(RED, 0))
+  oneFullColumnBoard.makeMove(new Move(YELLOW, 0))
+  oneFullColumnBoard.makeMove(new Move(RED, 0))
+  oneFullColumnBoard.makeMove(new Move(YELLOW, 0))
+  oneFullColumnBoard.makeMove(new Move(RED, 0))
+  oneFullColumnBoard.makeMove(new Move(RED, 4))
+  oneFullColumnBoard.makeMove(new Move(YELLOW, 3))
+  oneFullColumnBoard.makeMove(new Move(RED, 1))
+  oneFullColumnBoard.makeMove(new Move(YELLOW, 5))
 //  /**
 //   * Creates a full board
 //   */
-//  val fullBoard = new Board()
-//  Player match {
-//    case RED => YELLOW
-//    case YELLOW => RED
-//  }
-//
-//  for (r <- 0 until Board.NUM_ROWS; c <- 0 until Board.NUM_COLS) {
-//
-//    fullBoard.makeMove(new Move(YELLOW, 0))
-//
-//  }
+val fullBoard = new Board()
+  for (r <- 0 until Board.NUM_ROWS; c <- 0 until Board.NUM_COLS) {
+    if (r == 2 || r % 2 == 0) {
+      fullBoard.makeMove(new Move(YELLOW, c))
+    }
+    else {
+      fullBoard.makeMove(new Move(RED, c))
+    }
+
+  }
 }

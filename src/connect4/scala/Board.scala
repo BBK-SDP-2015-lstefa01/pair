@@ -48,14 +48,14 @@ class Board {
    */
   def makeMove(move: Move): Unit = {
 
-    if (getTile(0, move.column) != null) throw new IllegalArgumentException()
+    if (Option(getTile(0, move.column)).isDefined) throw new IllegalArgumentException("Column is full")
 
     // If the current position is full, place the Player in the next position
     var i = 0 //counter to go through rows
-    if (getTile(Board.NUM_ROWS - 1, move.column) == null)
+    if (!Option(getTile(Board.NUM_ROWS - 1, move.column)).isDefined)
       board(Board.NUM_ROWS - 1)(move.column) = move.player
     else {
-      while (getTile(i, move.column) == null && i < Board.NUM_ROWS - 1) {
+      while (!Option(getTile(i, move.column)).isDefined && i < Board.NUM_ROWS - 1) {
         i = i + 1
       }
 
@@ -76,8 +76,8 @@ class Board {
   def getPossibleMoves(p: Player): Array[Move] = {
     var possMoveArr = Array[Move]()
     for (i <- 0 until Board.NUM_COLS) {
-      val tile = Option(getTile(0, i))
-      if (!tile.isDefined) possMoveArr = possMoveArr.:+(new Move(p, i))
+      //check there are no players in the top row, i.e. columns are full
+      if (!Option(getTile(0, i)).isDefined) possMoveArr = possMoveArr.:+(new Move(p, i))
     }
     possMoveArr
   }
