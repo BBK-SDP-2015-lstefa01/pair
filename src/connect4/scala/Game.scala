@@ -130,7 +130,6 @@ class Game(private var activePlayer: Solver, private var player2: Solver) {
       activePlayer.asInstanceOf[Human].columnClicked(col)
     }
   }
-
   /**
    * Run the GUI until finished. If GUI is not initialized, the output will be
    * sent to the console.
