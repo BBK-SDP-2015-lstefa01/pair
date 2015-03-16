@@ -52,17 +52,22 @@ class AI(private var player: Player, private var depth: Int) extends Solver {
     //if b is null
     if (!Option(b).isDefined) {
       throw new IllegalArgumentException("A valid board is required")
+      System.exit(1)
     }
 
-    //if depth is 0 - Exception not thrown up to GUI as we were instructed to not change the Game class
+    //if depth is 0 - Exception not thrown up to GUI as we were instructed to not change the Game class. Caught by 
     if (depth == 0) {
-      depth = 1; println("No depth of 0 allowed - depth set to default of 1")
+      println("No depth of 0 allowed.")
+      System.exit(1)
     }
 
+    try {
     AI.createGameTree(rootState, depth)
-
+    } catch {
+      case iae: IllegalArgumentException => println("An Illegal Argument was passed as the depth parameter.")
+      case e: Exception => println("An exception was thrown in the AI createGameTree method.")
+    }
     minimax(rootState)
-
     rootState.children.foreach { child => {
       if (child.value == rootState.value) bestMoves = bestMoves.:+(child.getLastMove)
     }
