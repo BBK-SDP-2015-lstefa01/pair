@@ -1,4 +1,8 @@
 # pair
+
+Courswork Submission for Pair
+Esha Massand emassa01 and Liliya Stefanova lstefa01
+
 Pair programming project for SDP 
 ConnectFour
 
